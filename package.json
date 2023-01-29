@@ -1,0 +1,16 @@
+{
+  "name": "document",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Goodhao",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "lint": "prettier --write 'docs/**/*.md'"
+  },
+  "devDependencies": {
+    "lint-staged": "9.2.1",
+    "prettier": "1.18.2",
+    "vuepress": "1.0.3"
+  }
+}
