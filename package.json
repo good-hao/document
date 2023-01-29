@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "author": "Goodhao",
+  "license": "ISC",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
