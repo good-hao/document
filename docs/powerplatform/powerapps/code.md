@@ -122,6 +122,7 @@ pac pcf push --publisher-prefix new
 yarn build  或  npm build
 cd Solutions
 dotnet build
+cd ..
 pac pcf push --publisher-prefix new
 ```
 
