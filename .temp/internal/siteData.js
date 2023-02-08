@@ -7,12 +7,11 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
-      "title": "介绍",
       "frontmatter": {},
-      "regularPath": "/CRM/",
-      "relativePath": "CRM/README.md",
-      "key": "v-cd548110",
-      "path": "/CRM/"
+      "regularPath": "/DNS/",
+      "relativePath": "DNS/README.md",
+      "key": "v-64abc2e2",
+      "path": "/DNS/"
     },
     {
       "title": "code",
@@ -21,21 +20,6 @@ export const siteData = {
       "relativePath": "CRM/code/qianduan.md",
       "key": "v-54d0e31c",
       "path": "/CRM/code/qianduan.html"
-    },
-    {
-      "title": "代码",
-      "frontmatter": {},
-      "regularPath": "/CRM/code/houtai.html",
-      "relativePath": "CRM/code/houtai.md",
-      "key": "v-9792295c",
-      "path": "/CRM/code/houtai.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "给和",
-          "slug": "给和"
-        }
-      ]
     },
     {
       "title": "Dynamics 365",
@@ -63,6 +47,29 @@ export const siteData = {
       ]
     },
     {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/CRM/",
+      "relativePath": "CRM/README.md",
+      "key": "v-cd548110",
+      "path": "/CRM/"
+    },
+    {
+      "title": "代码",
+      "frontmatter": {},
+      "regularPath": "/CRM/code/houtai.html",
+      "relativePath": "CRM/code/houtai.md",
+      "key": "v-9792295c",
+      "path": "/CRM/code/houtai.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "给和",
+          "slug": "给和"
+        }
+      ]
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -83,6 +90,14 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-16f7f469",
       "path": "/"
+    },
+    {
+      "title": "语句",
+      "frontmatter": {},
+      "regularPath": "/MySql/",
+      "relativePath": "MySql/README.md",
+      "key": "v-289e9d30",
+      "path": "/MySql/"
     },
     {
       "title": "介绍",
@@ -107,28 +122,6 @@ export const siteData = {
       "relativePath": "en/CRM/code/qianduan.md",
       "key": "v-854bc2a2",
       "path": "/en/CRM/code/qianduan.html"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "../images/hero.png",
-        "features": [
-          {
-            "title": "Globalization",
-            "details": "Built-in industry universal international solution"
-          },
-          {
-            "title": "Theming",
-            "details": "Supports multiple dynamic skin methods"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2023"
-      },
-      "regularPath": "/en/",
-      "relativePath": "en/README.md",
-      "key": "v-81963628",
-      "path": "/en/"
     },
     {
       "title": "Dynamics 365",
@@ -156,11 +149,41 @@ export const siteData = {
       ]
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "../images/hero.png",
+        "features": [
+          {
+            "title": "Globalization",
+            "details": "Built-in industry universal international solution"
+          },
+          {
+            "title": "Theming",
+            "details": "Supports multiple dynamic skin methods"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2023"
+      },
+      "regularPath": "/en/",
+      "relativePath": "en/README.md",
+      "key": "v-81963628",
+      "path": "/en/"
+    },
+    {
       "frontmatter": {},
-      "regularPath": "/en/features/components/avatar-upload.html",
-      "relativePath": "en/features/components/avatar-upload.md",
-      "key": "v-034ba7bb",
-      "path": "/en/features/components/avatar-upload.html"
+      "regularPath": "/en/DNS/",
+      "relativePath": "en/DNS/README.md",
+      "key": "v-030d341f",
+      "path": "/en/DNS/"
+    },
+    {
+      "title": "语句",
+      "frontmatter": {},
+      "regularPath": "/en/MySql/",
+      "relativePath": "en/MySql/README.md",
+      "key": "v-7594c202",
+      "path": "/en/MySql/"
     },
     {
       "frontmatter": {},
@@ -185,10 +208,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-kanban.html",
-      "relativePath": "en/features/components/draggable-kanban.md",
-      "key": "v-3f6978df",
-      "path": "/en/features/components/draggable-kanban.html"
+      "regularPath": "/en/features/components/avatar-upload.html",
+      "relativePath": "en/features/components/avatar-upload.md",
+      "key": "v-034ba7bb",
+      "path": "/en/features/components/avatar-upload.html"
     },
     {
       "frontmatter": {},
@@ -199,17 +222,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/draggable-menu.html",
+      "relativePath": "en/features/components/draggable-menu.md",
+      "key": "v-d3ee5542",
+      "path": "/en/features/components/draggable-menu.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/draggable-kanban.html",
+      "relativePath": "en/features/components/draggable-kanban.md",
+      "key": "v-3f6978df",
+      "path": "/en/features/components/draggable-kanban.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/dropzone.html",
       "relativePath": "en/features/components/dropzone.md",
       "key": "v-10c8515f",
       "path": "/en/features/components/dropzone.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-select.html",
-      "relativePath": "en/features/components/draggable-select.md",
-      "key": "v-dfc66402",
-      "path": "/en/features/components/draggable-select.html"
     },
     {
       "frontmatter": {},
@@ -220,24 +250,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/draggable-select.html",
+      "relativePath": "en/features/components/draggable-select.md",
+      "key": "v-dfc66402",
+      "path": "/en/features/components/draggable-select.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/error-log.html",
       "relativePath": "en/features/components/error-log.md",
       "key": "v-c7e351b2",
       "path": "/en/features/components/error-log.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-menu.html",
-      "relativePath": "en/features/components/draggable-menu.md",
-      "key": "v-d3ee5542",
-      "path": "/en/features/components/draggable-menu.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/header-search.html",
-      "relativePath": "en/features/components/header-search.md",
-      "key": "v-5adb0e95",
-      "path": "/en/features/components/header-search.html"
     },
     {
       "frontmatter": {},
@@ -248,6 +271,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/lang-select.html",
+      "relativePath": "en/features/components/lang-select.md",
+      "key": "v-757c622f",
+      "path": "/en/features/components/lang-select.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/json-editor.html",
       "relativePath": "en/features/components/json-editor.md",
       "key": "v-3095707e",
@@ -255,10 +285,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/lang-select.html",
-      "relativePath": "en/features/components/lang-select.md",
-      "key": "v-757c622f",
-      "path": "/en/features/components/lang-select.html"
+      "regularPath": "/en/features/components/header-search.html",
+      "relativePath": "en/features/components/header-search.md",
+      "key": "v-5adb0e95",
+      "path": "/en/features/components/header-search.html"
     },
     {
       "frontmatter": {},
@@ -269,17 +299,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/material-input.html",
+      "relativePath": "en/features/components/material-input.md",
+      "key": "v-7f980fbf",
+      "path": "/en/features/components/material-input.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/pagination.html",
       "relativePath": "en/features/components/pagination.md",
       "key": "v-722c177f",
       "path": "/en/features/components/pagination.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/rich-editor.html",
-      "relativePath": "en/features/components/rich-editor.md",
-      "key": "v-553ce6ae",
-      "path": "/en/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -290,17 +320,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/material-input.html",
-      "relativePath": "en/features/components/material-input.md",
-      "key": "v-7f980fbf",
-      "path": "/en/features/components/material-input.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/right-panel.html",
-      "relativePath": "en/features/components/right-panel.md",
-      "key": "v-2046a77f",
-      "path": "/en/features/components/right-panel.html"
+      "regularPath": "/en/features/components/rich-editor.html",
+      "relativePath": "en/features/components/rich-editor.md",
+      "key": "v-553ce6ae",
+      "path": "/en/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -308,6 +331,13 @@ export const siteData = {
       "relativePath": "en/features/components/screenfull.md",
       "key": "v-1c4802df",
       "path": "/en/features/components/screenfull.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/right-panel.html",
+      "relativePath": "en/features/components/right-panel.md",
+      "key": "v-2046a77f",
+      "path": "/en/features/components/right-panel.html"
     },
     {
       "frontmatter": {},
@@ -346,10 +376,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/clipboard.html",
-      "relativePath": "en/features/directives/clipboard.md",
-      "key": "v-77bedc46",
-      "path": "/en/features/directives/clipboard.html"
+      "regularPath": "/en/features/directives/permission.html",
+      "relativePath": "en/features/directives/permission.md",
+      "key": "v-c45a09c2",
+      "path": "/en/features/directives/permission.html"
     },
     {
       "frontmatter": {},
@@ -360,10 +390,47 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/permission.html",
-      "relativePath": "en/features/directives/permission.md",
-      "key": "v-c45a09c2",
-      "path": "/en/features/directives/permission.html"
+      "regularPath": "/en/features/directives/clipboard.html",
+      "relativePath": "en/features/directives/clipboard.md",
+      "key": "v-77bedc46",
+      "path": "/en/features/directives/clipboard.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/directives/draggable-dialog.html",
+      "relativePath": "en/features/directives/draggable-dialog.md",
+      "key": "v-7dae1cbf",
+      "path": "/en/features/directives/draggable-dialog.html"
+    },
+    {
+      "title": "1.nginx的proxy_pass配置路径，加与不加“/”差异巨大",
+      "frontmatter": {},
+      "regularPath": "/en/nginx/",
+      "relativePath": "en/nginx/README.md",
+      "key": "v-9ae58c02",
+      "path": "/en/nginx/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.nginx的proxy_pass配置路径，加与不加“/”差异巨大",
+          "slug": "_1-nginx的proxy-pass配置路径，加与不加“-”差异巨大"
+        },
+        {
+          "level": 3,
+          "title": "1.1 绝对路径",
+          "slug": "_1-1-绝对路径"
+        },
+        {
+          "level": 3,
+          "title": "1.2 相对路径",
+          "slug": "_1-2-相对路径"
+        },
+        {
+          "level": 3,
+          "title": "1.3 代理路径添加uri",
+          "slug": "_1-3-代理路径添加uri"
+        }
+      ]
     },
     {
       "frontmatter": {},
@@ -374,17 +441,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/draggable-dialog.html",
-      "relativePath": "en/features/directives/draggable-dialog.md",
-      "key": "v-7dae1cbf",
-      "path": "/en/features/directives/draggable-dialog.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/avatar-upload.html",
-      "relativePath": "features/components/avatar-upload.md",
-      "key": "v-c7d6cf9c",
-      "path": "/features/components/avatar-upload.html"
+      "regularPath": "/en/nginx/config/",
+      "relativePath": "en/nginx/config/README.md",
+      "key": "v-f9e97bc0",
+      "path": "/en/nginx/config/"
     },
     {
       "frontmatter": {},
@@ -402,6 +462,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/back-to-top.html",
+      "relativePath": "features/components/back-to-top.md",
+      "key": "v-0c7dbb9c",
+      "path": "/features/components/back-to-top.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/breadcrumb.html",
       "relativePath": "features/components/breadcrumb.md",
       "key": "v-b7d0266c",
@@ -409,10 +476,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/back-to-top.html",
-      "relativePath": "features/components/back-to-top.md",
-      "key": "v-0c7dbb9c",
-      "path": "/features/components/back-to-top.html"
+      "regularPath": "/features/components/avatar-upload.html",
+      "relativePath": "features/components/avatar-upload.md",
+      "key": "v-c7d6cf9c",
+      "path": "/features/components/avatar-upload.html"
     },
     {
       "frontmatter": {},
@@ -430,13 +497,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/draggable-list.html",
-      "relativePath": "features/components/draggable-list.md",
-      "key": "v-769cbb14",
-      "path": "/features/components/draggable-list.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/draggable-menu.html",
       "relativePath": "features/components/draggable-menu.md",
       "key": "v-9c1298dc",
@@ -444,10 +504,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/draggable-select.html",
-      "relativePath": "features/components/draggable-select.md",
-      "key": "v-fa737cd0",
-      "path": "/features/components/draggable-select.html"
+      "regularPath": "/features/components/draggable-list.html",
+      "relativePath": "features/components/draggable-list.md",
+      "key": "v-769cbb14",
+      "path": "/features/components/draggable-list.html"
     },
     {
       "frontmatter": {},
@@ -455,6 +515,13 @@ export const siteData = {
       "relativePath": "features/components/dropzone.md",
       "key": "v-f45c38cc",
       "path": "/features/components/dropzone.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/draggable-select.html",
+      "relativePath": "features/components/draggable-select.md",
+      "key": "v-fa737cd0",
+      "path": "/features/components/draggable-select.html"
     },
     {
       "frontmatter": {},
@@ -472,10 +539,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/header-search.html",
-      "relativePath": "features/components/header-search.md",
-      "key": "v-33d27852",
-      "path": "/features/components/header-search.html"
+      "regularPath": "/features/components/json-editor.html",
+      "relativePath": "features/components/json-editor.md",
+      "key": "v-4c6a8ad2",
+      "path": "/features/components/json-editor.html"
     },
     {
       "frontmatter": {},
@@ -486,17 +553,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/json-editor.html",
-      "relativePath": "features/components/json-editor.md",
-      "key": "v-4c6a8ad2",
-      "path": "/features/components/json-editor.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/markdown-editor.html",
-      "relativePath": "features/components/markdown-editor.md",
-      "key": "v-75154f72",
-      "path": "/features/components/markdown-editor.html"
+      "regularPath": "/features/components/header-search.html",
+      "relativePath": "features/components/header-search.md",
+      "key": "v-33d27852",
+      "path": "/features/components/header-search.html"
     },
     {
       "frontmatter": {},
@@ -514,24 +574,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/markdown-editor.html",
+      "relativePath": "features/components/markdown-editor.md",
+      "key": "v-75154f72",
+      "path": "/features/components/markdown-editor.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/pagination.html",
       "relativePath": "features/components/pagination.md",
       "key": "v-582b381c",
       "path": "/features/components/pagination.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/pan-thumb.html",
-      "relativePath": "features/components/pan-thumb.md",
-      "key": "v-790de5dc",
-      "path": "/features/components/pan-thumb.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/rich-editor.html",
-      "relativePath": "features/components/rich-editor.md",
-      "key": "v-0115b35c",
-      "path": "/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -542,6 +595,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/pan-thumb.html",
+      "relativePath": "features/components/pan-thumb.md",
+      "key": "v-790de5dc",
+      "path": "/features/components/pan-thumb.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/screenfull.html",
       "relativePath": "features/components/screenfull.md",
       "key": "v-20b3e6da",
@@ -549,10 +609,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/sticky.html",
-      "relativePath": "features/components/sticky.md",
-      "key": "v-ab08a604",
-      "path": "/features/components/sticky.html"
+      "regularPath": "/features/components/rich-editor.html",
+      "relativePath": "features/components/rich-editor.md",
+      "key": "v-0115b35c",
+      "path": "/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -560,6 +620,13 @@ export const siteData = {
       "relativePath": "features/components/size-select.md",
       "key": "v-e4d5fadc",
       "path": "/features/components/size-select.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/sticky.html",
+      "relativePath": "features/components/sticky.md",
+      "key": "v-ab08a604",
+      "path": "/features/components/sticky.html"
     },
     {
       "frontmatter": {},
@@ -598,13 +665,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/directives/permission.html",
-      "relativePath": "features/directives/permission.md",
-      "key": "v-e78344e4",
-      "path": "/features/directives/permission.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/directives/draggable-dialog.html",
       "relativePath": "features/directives/draggable-dialog.md",
       "key": "v-214876dc",
@@ -618,6 +678,36 @@ export const siteData = {
       "path": "/features/directives/waves.html"
     },
     {
+      "title": "1.nginx的proxy_pass配置路径，加与不加“/”差异巨大",
+      "frontmatter": {},
+      "regularPath": "/nginx/",
+      "relativePath": "nginx/README.md",
+      "key": "v-eb92f680",
+      "path": "/nginx/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.nginx的proxy_pass配置路径，加与不加“/”差异巨大",
+          "slug": "_1-nginx的proxy-pass配置路径，加与不加“-”差异巨大"
+        },
+        {
+          "level": 3,
+          "title": "1.1 绝对路径",
+          "slug": "_1-1-绝对路径"
+        },
+        {
+          "level": 3,
+          "title": "1.2 相对路径",
+          "slug": "_1-2-相对路径"
+        },
+        {
+          "level": 3,
+          "title": "1.3 代理路径添加uri",
+          "slug": "_1-3-代理路径添加uri"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
       "regularPath": "/features/icons/svg-icons.html",
       "relativePath": "features/icons/svg-icons.md",
@@ -626,10 +716,40 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/directives/permission.html",
+      "relativePath": "features/directives/permission.md",
+      "key": "v-e78344e4",
+      "path": "/features/directives/permission.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/pwa/service-worker-update-popup.html",
       "relativePath": "features/pwa/service-worker-update-popup.md",
       "key": "v-16454b68",
       "path": "/features/pwa/service-worker-update-popup.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/nginx/config/",
+      "relativePath": "nginx/config/README.md",
+      "key": "v-b38ec94e",
+      "path": "/nginx/config/"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/",
+      "relativePath": "powerplatform/README.md",
+      "key": "v-b24faef8",
+      "path": "/powerplatform/"
+    },
+    {
+      "title": "创建pcf控件",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/powerapps/code.html",
+      "relativePath": "powerplatform/powerapps/code.md",
+      "key": "v-1f73df28",
+      "path": "/powerplatform/powerapps/code.html"
     }
   ],
   "themeConfig": {
@@ -642,6 +762,10 @@ export const siteData = {
           {
             "text": "D365 CRM 文档",
             "link": "/CRM/"
+          },
+          {
+            "text": "Power Platform",
+            "link": "/powerplatform/"
           },
           {
             "text": "生态系统",
@@ -696,6 +820,14 @@ export const siteData = {
                 "/CRM/code/houtai"
               ]
             }
+          ],
+          "/powerplatform/": [
+            {
+              "title": "发布",
+              "children": [
+                "/powerplatform/powerapps/code"
+              ]
+            }
           ]
         }
       },
@@ -706,6 +838,10 @@ export const siteData = {
           {
             "text": "D365 CRM Document",
             "link": "/en/CRM/"
+          },
+          {
+            "text": "Power Platform",
+            "link": "/en/powerplatform/"
           },
           {
             "text": "Ecosystem",
@@ -758,6 +894,14 @@ export const siteData = {
               "children": [
                 "/en/CRM/code/qianduan",
                 "/en/CRM/code/houtai"
+              ]
+            }
+          ],
+          "/en/powerplatform/": [
+            {
+              "title": "Power Apps",
+              "children": [
+                "/en/powerplatform/powerapps/code"
               ]
             }
           ]

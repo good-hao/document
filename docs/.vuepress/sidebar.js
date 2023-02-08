@@ -5,6 +5,9 @@ const sidebar = {
   'crmcode': [
     '/CRM/code/qianduan',
     '/CRM/code/houtai'
+  ],
+  'powerapps':[
+    '/powerplatform/powerapps/code'
   ]
 }
 

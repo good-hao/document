@@ -38,6 +38,10 @@ module.exports = {
             link: '/CRM/'
           },
           {
+            text: 'Power Platform',
+            link: '/powerplatform/'
+          },
+          {
             text: '生态系统',
             items: getNavbarByCategory('ecosystem', 'zh')
           }
@@ -52,6 +56,12 @@ module.exports = {
               title: '代码',
               children: getSidebarByCategory('crmcode', 'zh')
             }
+          ],
+          '/powerplatform/': [
+            {
+              title: '发布',
+              children: getSidebarByCategory('powerapps', 'zh')
+            }
           ]
         }
       },
@@ -62,6 +72,10 @@ module.exports = {
           {
             text: 'D365 CRM Document',
             link: '/en/CRM/'
+          },
+          {
+            text: 'Power Platform',
+            link: '/en/powerplatform/'
           },
           {
             text: 'Ecosystem',
@@ -77,6 +91,12 @@ module.exports = {
             {
               title: 'code',
               children: getSidebarByCategory('crmcode', 'en')
+            }
+          ],
+          '/en/powerplatform/': [
+            {
+              title: 'Power Apps',
+              children: getSidebarByCategory('powerapps', 'en')
             }
           ]
         }
