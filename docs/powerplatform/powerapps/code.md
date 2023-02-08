@@ -1,4 +1,6 @@
-# 创建pcf控件
+# PCF控件
+
+## 创建
 
 ```text
 pac pcf init --namespace 命名空间 --name 控件名 --template field
@@ -114,7 +116,7 @@ pac pcf push --publisher-prefix new
 
 
 
-更新
+## 更新
 
 ```text
 yarn build  或  npm build
