@@ -4,7 +4,7 @@
 
 ```text
 pac pcf init --namespace 命名空间 --name 控件名 --template field
-pac pcf init --namespace PCFDateTime --name PCFDateTime --template field install
+pac pcf init --namespace PCFDateTime --name PCFDateTime --template field
 ```
 
 在Visual Studio Code中打开解决方案
