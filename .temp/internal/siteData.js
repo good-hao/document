@@ -7,11 +7,12 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
+      "title": "介绍",
       "frontmatter": {},
-      "regularPath": "/DNS/",
-      "relativePath": "DNS/README.md",
-      "key": "v-64abc2e2",
-      "path": "/DNS/"
+      "regularPath": "/CRM/",
+      "relativePath": "CRM/README.md",
+      "key": "v-cd548110",
+      "path": "/CRM/"
     },
     {
       "title": "code",
@@ -47,14 +48,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/CRM/",
-      "relativePath": "CRM/README.md",
-      "key": "v-cd548110",
-      "path": "/CRM/"
-    },
-    {
       "title": "代码",
       "frontmatter": {},
       "regularPath": "/CRM/code/houtai.html",
@@ -68,6 +61,21 @@ export const siteData = {
           "slug": "给和"
         }
       ]
+    },
+    {
+      "title": "语句",
+      "frontmatter": {},
+      "regularPath": "/MySql/",
+      "relativePath": "MySql/README.md",
+      "key": "v-289e9d30",
+      "path": "/MySql/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/DNS/",
+      "relativePath": "DNS/README.md",
+      "key": "v-64abc2e2",
+      "path": "/DNS/"
     },
     {
       "title": "Home",
@@ -92,14 +100,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "语句",
-      "frontmatter": {},
-      "regularPath": "/MySql/",
-      "relativePath": "MySql/README.md",
-      "key": "v-289e9d30",
-      "path": "/MySql/"
-    },
-    {
       "title": "介绍",
       "frontmatter": {},
       "regularPath": "/en/CRM/",
@@ -122,6 +122,35 @@ export const siteData = {
       "relativePath": "en/CRM/code/qianduan.md",
       "key": "v-854bc2a2",
       "path": "/en/CRM/code/qianduan.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/DNS/",
+      "relativePath": "en/DNS/README.md",
+      "key": "v-030d341f",
+      "path": "/en/DNS/"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "../images/hero.png",
+        "features": [
+          {
+            "title": "Globalization",
+            "details": "Built-in industry universal international solution"
+          },
+          {
+            "title": "Theming",
+            "details": "Supports multiple dynamic skin methods"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2023"
+      },
+      "regularPath": "/en/",
+      "relativePath": "en/README.md",
+      "key": "v-81963628",
+      "path": "/en/"
     },
     {
       "title": "Dynamics 365",
@@ -149,62 +178,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "../images/hero.png",
-        "features": [
-          {
-            "title": "Globalization",
-            "details": "Built-in industry universal international solution"
-          },
-          {
-            "title": "Theming",
-            "details": "Supports multiple dynamic skin methods"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2023"
-      },
-      "regularPath": "/en/",
-      "relativePath": "en/README.md",
-      "key": "v-81963628",
-      "path": "/en/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/DNS/",
-      "relativePath": "en/DNS/README.md",
-      "key": "v-030d341f",
-      "path": "/en/DNS/"
-    },
-    {
       "title": "语句",
       "frontmatter": {},
       "regularPath": "/en/MySql/",
       "relativePath": "en/MySql/README.md",
       "key": "v-7594c202",
       "path": "/en/MySql/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/back-to-top.html",
-      "relativePath": "en/features/components/back-to-top.md",
-      "key": "v-536b2453",
-      "path": "/en/features/components/back-to-top.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/breadcrumb.html",
-      "relativePath": "en/features/components/breadcrumb.md",
-      "key": "v-08345ddf",
-      "path": "/en/features/components/breadcrumb.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/charts.html",
-      "relativePath": "en/features/components/charts.md",
-      "key": "v-f23ba6c2",
-      "path": "/en/features/components/charts.html"
     },
     {
       "frontmatter": {},
@@ -215,17 +194,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-list.html",
-      "relativePath": "en/features/components/draggable-list.md",
-      "key": "v-600b2e7f",
-      "path": "/en/features/components/draggable-list.html"
+      "regularPath": "/en/features/components/breadcrumb.html",
+      "relativePath": "en/features/components/breadcrumb.md",
+      "key": "v-08345ddf",
+      "path": "/en/features/components/breadcrumb.html"
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-menu.html",
-      "relativePath": "en/features/components/draggable-menu.md",
-      "key": "v-d3ee5542",
-      "path": "/en/features/components/draggable-menu.html"
+      "regularPath": "/en/features/components/back-to-top.html",
+      "relativePath": "en/features/components/back-to-top.md",
+      "key": "v-536b2453",
+      "path": "/en/features/components/back-to-top.html"
     },
     {
       "frontmatter": {},
@@ -236,17 +215,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/dropzone.html",
-      "relativePath": "en/features/components/dropzone.md",
-      "key": "v-10c8515f",
-      "path": "/en/features/components/dropzone.html"
+      "regularPath": "/en/features/components/charts.html",
+      "relativePath": "en/features/components/charts.md",
+      "key": "v-f23ba6c2",
+      "path": "/en/features/components/charts.html"
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/github-corner.html",
-      "relativePath": "en/features/components/github-corner.md",
-      "key": "v-2aa55127",
-      "path": "/en/features/components/github-corner.html"
+      "regularPath": "/en/features/components/draggable-menu.html",
+      "relativePath": "en/features/components/draggable-menu.md",
+      "key": "v-d3ee5542",
+      "path": "/en/features/components/draggable-menu.html"
     },
     {
       "frontmatter": {},
@@ -257,6 +236,20 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/draggable-list.html",
+      "relativePath": "en/features/components/draggable-list.md",
+      "key": "v-600b2e7f",
+      "path": "/en/features/components/draggable-list.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/dropzone.html",
+      "relativePath": "en/features/components/dropzone.md",
+      "key": "v-10c8515f",
+      "path": "/en/features/components/dropzone.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/error-log.html",
       "relativePath": "en/features/components/error-log.md",
       "key": "v-c7e351b2",
@@ -264,10 +257,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/github-corner.html",
+      "relativePath": "en/features/components/github-corner.md",
+      "key": "v-2aa55127",
+      "path": "/en/features/components/github-corner.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/hamburger.html",
       "relativePath": "en/features/components/hamburger.md",
       "key": "v-a1b226da",
       "path": "/en/features/components/hamburger.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/header-search.html",
+      "relativePath": "en/features/components/header-search.md",
+      "key": "v-5adb0e95",
+      "path": "/en/features/components/header-search.html"
     },
     {
       "frontmatter": {},
@@ -285,13 +292,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/header-search.html",
-      "relativePath": "en/features/components/header-search.md",
-      "key": "v-5adb0e95",
-      "path": "/en/features/components/header-search.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/components/markdown-editor.html",
       "relativePath": "en/features/components/markdown-editor.md",
       "key": "v-1bfcb08f",
@@ -299,10 +299,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/material-input.html",
-      "relativePath": "en/features/components/material-input.md",
-      "key": "v-7f980fbf",
-      "path": "/en/features/components/material-input.html"
+      "regularPath": "/en/features/components/rich-editor.html",
+      "relativePath": "en/features/components/rich-editor.md",
+      "key": "v-553ce6ae",
+      "path": "/en/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -313,17 +313,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/material-input.html",
+      "relativePath": "en/features/components/material-input.md",
+      "key": "v-7f980fbf",
+      "path": "/en/features/components/material-input.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/pan-thumb.html",
       "relativePath": "en/features/components/pan-thumb.md",
       "key": "v-7b618219",
       "path": "/en/features/components/pan-thumb.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/rich-editor.html",
-      "relativePath": "en/features/components/rich-editor.md",
-      "key": "v-553ce6ae",
-      "path": "/en/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -376,10 +376,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/permission.html",
-      "relativePath": "en/features/directives/permission.md",
-      "key": "v-c45a09c2",
-      "path": "/en/features/directives/permission.html"
+      "regularPath": "/en/features/directives/clipboard.html",
+      "relativePath": "en/features/directives/clipboard.md",
+      "key": "v-77bedc46",
+      "path": "/en/features/directives/clipboard.html"
     },
     {
       "frontmatter": {},
@@ -390,17 +390,106 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/clipboard.html",
-      "relativePath": "en/features/directives/clipboard.md",
-      "key": "v-77bedc46",
-      "path": "/en/features/directives/clipboard.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/directives/draggable-dialog.html",
       "relativePath": "en/features/directives/draggable-dialog.md",
       "key": "v-7dae1cbf",
       "path": "/en/features/directives/draggable-dialog.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/directives/permission.html",
+      "relativePath": "en/features/directives/permission.md",
+      "key": "v-c45a09c2",
+      "path": "/en/features/directives/permission.html"
+    },
+    {
+      "title": "npm",
+      "frontmatter": {},
+      "regularPath": "/en/npm&yarn/",
+      "relativePath": "en/npm&yarn/README.md",
+      "key": "v-71a63fc6",
+      "path": "/en/npm&yarn/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "全局安装 nrm",
+          "slug": "全局安装-nrm"
+        },
+        {
+          "level": 2,
+          "title": "查看当前可使用的镜像源",
+          "slug": "查看当前可使用的镜像源"
+        },
+        {
+          "level": 2,
+          "title": "使用镜像源进行依赖下载",
+          "slug": "使用镜像源进行依赖下载"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/icons/svg-icons.html",
+      "relativePath": "en/features/icons/svg-icons.md",
+      "key": "v-6e5df525",
+      "path": "/en/features/icons/svg-icons.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/directives/waves.html",
+      "relativePath": "en/features/directives/waves.md",
+      "key": "v-0df11b55",
+      "path": "/en/features/directives/waves.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/pwa/service-worker-update-popup.html",
+      "relativePath": "en/features/pwa/service-worker-update-popup.md",
+      "key": "v-15072225",
+      "path": "/en/features/pwa/service-worker-update-popup.html"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/en/powerplatform/",
+      "relativePath": "en/powerplatform/README.md",
+      "key": "v-37db5682",
+      "path": "/en/powerplatform/"
+    },
+    {
+      "title": "界面操作",
+      "frontmatter": {},
+      "regularPath": "/en/powerplatform/powerapps/view.html",
+      "relativePath": "en/powerplatform/powerapps/view.md",
+      "key": "v-5b522dd9",
+      "path": "/en/powerplatform/powerapps/view.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "sftp",
+          "slug": "sftp"
+        }
+      ]
+    },
+    {
+      "title": "PCF控件",
+      "frontmatter": {},
+      "regularPath": "/en/powerplatform/powerapps/code.html",
+      "relativePath": "en/powerplatform/powerapps/code.md",
+      "key": "v-733c12d9",
+      "path": "/en/powerplatform/powerapps/code.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "创建",
+          "slug": "创建"
+        },
+        {
+          "level": 2,
+          "title": "更新",
+          "slug": "更新"
+        }
+      ]
     },
     {
       "title": "1.nginx的proxy_pass配置路径，加与不加“/”差异巨大",
@@ -434,13 +523,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/waves.html",
-      "relativePath": "en/features/directives/waves.md",
-      "key": "v-0df11b55",
-      "path": "/en/features/directives/waves.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/nginx/config/",
       "relativePath": "en/nginx/config/README.md",
       "key": "v-f9e97bc0",
@@ -448,17 +530,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/icons/svg-icons.html",
-      "relativePath": "en/features/icons/svg-icons.md",
-      "key": "v-6e5df525",
-      "path": "/en/features/icons/svg-icons.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/pwa/service-worker-update-popup.html",
-      "relativePath": "en/features/pwa/service-worker-update-popup.md",
-      "key": "v-15072225",
-      "path": "/en/features/pwa/service-worker-update-popup.html"
+      "regularPath": "/features/components/avatar-upload.html",
+      "relativePath": "features/components/avatar-upload.md",
+      "key": "v-c7d6cf9c",
+      "path": "/features/components/avatar-upload.html"
     },
     {
       "frontmatter": {},
@@ -476,13 +551,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/avatar-upload.html",
-      "relativePath": "features/components/avatar-upload.md",
-      "key": "v-c7d6cf9c",
-      "path": "/features/components/avatar-upload.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/charts.html",
       "relativePath": "features/components/charts.md",
       "key": "v-9b0e17b4",
@@ -497,6 +565,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/draggable-list.html",
+      "relativePath": "features/components/draggable-list.md",
+      "key": "v-769cbb14",
+      "path": "/features/components/draggable-list.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/draggable-menu.html",
       "relativePath": "features/components/draggable-menu.md",
       "key": "v-9c1298dc",
@@ -504,10 +579,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/draggable-list.html",
-      "relativePath": "features/components/draggable-list.md",
-      "key": "v-769cbb14",
-      "path": "/features/components/draggable-list.html"
+      "regularPath": "/features/components/draggable-select.html",
+      "relativePath": "features/components/draggable-select.md",
+      "key": "v-fa737cd0",
+      "path": "/features/components/draggable-select.html"
     },
     {
       "frontmatter": {},
@@ -518,10 +593,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/draggable-select.html",
-      "relativePath": "features/components/draggable-select.md",
-      "key": "v-fa737cd0",
-      "path": "/features/components/draggable-select.html"
+      "regularPath": "/features/components/github-corner.html",
+      "relativePath": "features/components/github-corner.md",
+      "key": "v-2faa5c1c",
+      "path": "/features/components/github-corner.html"
     },
     {
       "frontmatter": {},
@@ -539,24 +614,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/json-editor.html",
-      "relativePath": "features/components/json-editor.md",
-      "key": "v-4c6a8ad2",
-      "path": "/features/components/json-editor.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/github-corner.html",
-      "relativePath": "features/components/github-corner.md",
-      "key": "v-2faa5c1c",
-      "path": "/features/components/github-corner.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/header-search.html",
       "relativePath": "features/components/header-search.md",
       "key": "v-33d27852",
       "path": "/features/components/header-search.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/json-editor.html",
+      "relativePath": "features/components/json-editor.md",
+      "key": "v-4c6a8ad2",
+      "path": "/features/components/json-editor.html"
     },
     {
       "frontmatter": {},
@@ -567,17 +635,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/material-input.html",
-      "relativePath": "features/components/material-input.md",
-      "key": "v-222a2188",
-      "path": "/features/components/material-input.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/markdown-editor.html",
       "relativePath": "features/components/markdown-editor.md",
       "key": "v-75154f72",
       "path": "/features/components/markdown-editor.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/material-input.html",
+      "relativePath": "features/components/material-input.md",
+      "key": "v-222a2188",
+      "path": "/features/components/material-input.html"
     },
     {
       "frontmatter": {},
@@ -588,13 +656,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/right-panel.html",
-      "relativePath": "features/components/right-panel.md",
-      "key": "v-dc84bb1c",
-      "path": "/features/components/right-panel.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/pan-thumb.html",
       "relativePath": "features/components/pan-thumb.md",
       "key": "v-790de5dc",
@@ -602,10 +663,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/screenfull.html",
-      "relativePath": "features/components/screenfull.md",
-      "key": "v-20b3e6da",
-      "path": "/features/components/screenfull.html"
+      "regularPath": "/features/components/right-panel.html",
+      "relativePath": "features/components/right-panel.md",
+      "key": "v-dc84bb1c",
+      "path": "/features/components/right-panel.html"
     },
     {
       "frontmatter": {},
@@ -616,6 +677,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/screenfull.html",
+      "relativePath": "features/components/screenfull.md",
+      "key": "v-20b3e6da",
+      "path": "/features/components/screenfull.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/size-select.html",
       "relativePath": "features/components/size-select.md",
       "key": "v-e4d5fadc",
@@ -623,17 +691,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/sticky.html",
-      "relativePath": "features/components/sticky.md",
-      "key": "v-ab08a604",
-      "path": "/features/components/sticky.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/theme-picker.html",
       "relativePath": "features/components/theme-picker.md",
       "key": "v-44c909ec",
       "path": "/features/components/theme-picker.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/sticky.html",
+      "relativePath": "features/components/sticky.md",
+      "key": "v-ab08a604",
+      "path": "/features/components/sticky.html"
     },
     {
       "frontmatter": {},
@@ -658,13 +726,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/directives/clipboard.html",
-      "relativePath": "features/directives/clipboard.md",
-      "key": "v-1798bd5c",
-      "path": "/features/directives/clipboard.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/directives/draggable-dialog.html",
       "relativePath": "features/directives/draggable-dialog.md",
       "key": "v-214876dc",
@@ -672,10 +733,106 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/directives/clipboard.html",
+      "relativePath": "features/directives/clipboard.md",
+      "key": "v-1798bd5c",
+      "path": "/features/directives/clipboard.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/directives/permission.html",
+      "relativePath": "features/directives/permission.md",
+      "key": "v-e78344e4",
+      "path": "/features/directives/permission.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/icons/svg-icons.html",
+      "relativePath": "features/icons/svg-icons.md",
+      "key": "v-af4635f8",
+      "path": "/features/icons/svg-icons.html"
+    },
+    {
+      "title": "npm",
+      "frontmatter": {},
+      "regularPath": "/npm&yarn/",
+      "relativePath": "npm&yarn/README.md",
+      "key": "v-25d06128",
+      "path": "/npm&yarn/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "全局安装 nrm",
+          "slug": "全局安装-nrm"
+        },
+        {
+          "level": 2,
+          "title": "查看当前可使用的镜像源",
+          "slug": "查看当前可使用的镜像源"
+        },
+        {
+          "level": 2,
+          "title": "使用镜像源进行依赖下载",
+          "slug": "使用镜像源进行依赖下载"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/pwa/service-worker-update-popup.html",
+      "relativePath": "features/pwa/service-worker-update-popup.md",
+      "key": "v-16454b68",
+      "path": "/features/pwa/service-worker-update-popup.html"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/",
+      "relativePath": "powerplatform/README.md",
+      "key": "v-b24faef8",
+      "path": "/powerplatform/"
+    },
+    {
+      "title": "PCF控件",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/powerapps/code.html",
+      "relativePath": "powerplatform/powerapps/code.md",
+      "key": "v-1f73df28",
+      "path": "/powerplatform/powerapps/code.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "创建",
+          "slug": "创建"
+        },
+        {
+          "level": 2,
+          "title": "更新",
+          "slug": "更新"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/directives/waves.html",
       "relativePath": "features/directives/waves.md",
       "key": "v-45589d52",
       "path": "/features/directives/waves.html"
+    },
+    {
+      "title": "界面操作",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/powerapps/view.html",
+      "relativePath": "powerplatform/powerapps/view.md",
+      "key": "v-489f8608",
+      "path": "/powerplatform/powerapps/view.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "sftp",
+          "slug": "sftp"
+        }
+      ]
     },
     {
       "title": "1.nginx的proxy_pass配置路径，加与不加“/”差异巨大",
@@ -709,47 +866,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/icons/svg-icons.html",
-      "relativePath": "features/icons/svg-icons.md",
-      "key": "v-af4635f8",
-      "path": "/features/icons/svg-icons.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/directives/permission.html",
-      "relativePath": "features/directives/permission.md",
-      "key": "v-e78344e4",
-      "path": "/features/directives/permission.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/pwa/service-worker-update-popup.html",
-      "relativePath": "features/pwa/service-worker-update-popup.md",
-      "key": "v-16454b68",
-      "path": "/features/pwa/service-worker-update-popup.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/nginx/config/",
       "relativePath": "nginx/config/README.md",
       "key": "v-b38ec94e",
       "path": "/nginx/config/"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/powerplatform/",
-      "relativePath": "powerplatform/README.md",
-      "key": "v-b24faef8",
-      "path": "/powerplatform/"
-    },
-    {
-      "title": "创建pcf控件",
-      "frontmatter": {},
-      "regularPath": "/powerplatform/powerapps/code.html",
-      "relativePath": "powerplatform/powerapps/code.md",
-      "key": "v-1f73df28",
-      "path": "/powerplatform/powerapps/code.html"
     }
   ],
   "themeConfig": {
@@ -825,7 +945,8 @@ export const siteData = {
             {
               "title": "发布",
               "children": [
-                "/powerplatform/powerapps/code"
+                "/powerplatform/powerapps/code",
+                "/powerplatform/powerapps/view"
               ]
             }
           ]
@@ -901,7 +1022,8 @@ export const siteData = {
             {
               "title": "Power Apps",
               "children": [
-                "/en/powerplatform/powerapps/code"
+                "/en/powerplatform/powerapps/code",
+                "/en/powerplatform/powerapps/view"
               ]
             }
           ]

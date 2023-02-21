@@ -7,7 +7,8 @@ const sidebar = {
     '/CRM/code/houtai'
   ],
   'powerapps':[
-    '/powerplatform/powerapps/code'
+    '/powerplatform/powerapps/code',
+    '/powerplatform/powerapps/view'
   ]
 }
 
