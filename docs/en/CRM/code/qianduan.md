@@ -129,10 +129,31 @@ Xrm.Page.getControl(FieldName).getAttribute().addOnChange(fnOnChange);
 console.log(Xrm.Page.data.entity.getDataXml());
 ```
 
- 阻止当前页面保存，需要勾选 Pass execution context as first parameter
+ 阻止当前页面保存，需要勾选 Pass execution context as first parameter(将执行上下文作为第一个参数传递)
 
 ```js
+function PageOnSave(exeContext){
+    var formContext = exeContext.getFormContext();
+    //Xrm.Page = formContext
+}
 exeContext.getEventArgs().preventDefault();
 ```
 
- 
+ 保存当前表单
+
+```js
+Xrm.Page.data.entity.save();
+```
+
+刷新表单
+
+```js
+Xrm.Page.data.refresh();
+```
+
+刷新视图
+
+```js
+Mscrm.Utilities.refreshCurrentGrid(etc number);//在新窗口中打开表单时，完整url中包含该值。
+```
+
