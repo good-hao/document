@@ -1,6 +1,6 @@
 # CRM前端操作
 
-## 取值：
+## 取值
 
 ```js
 var obj = Xrm.Page.getAttribute(FieldName).getValue();
@@ -8,7 +8,7 @@ var obj = Xrm.Page.getAttribute(FieldName).getValue();
 var obj = Xrm.Page.getControl(FieldName).getAttribute().getValue();
 ```
 
-## 赋值：
+## 赋值
 
 ```js
 一般类型：
@@ -155,5 +155,19 @@ Xrm.Page.data.refresh();
 
 ```js
 Mscrm.Utilities.refreshCurrentGrid(etc number);//在新窗口中打开表单时，完整url中包含该值。
+```
+
+打开实体窗体或创建窗体
+
+```js
+//Xrm.Navigation.openForm({ "entityName": "entityName", "entityId": "entityId" });
+Xrm.Navigation.openForm(entityFormOptions,formParameters).then(//entityFormOptions必填
+    function (success) {
+        console.log(success);
+    },
+    function (error) {
+        console.log(error);
+    });
+//详细链接：https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform
 ```
 
