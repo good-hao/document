@@ -1,4 +1,4 @@
-# CRM前端操作
+# zCRM前端操作
 
 ## 取值
 
@@ -168,6 +168,42 @@ Xrm.Navigation.openForm(entityFormOptions,formParameters).then(//entityFormOptio
     function (error) {
         console.log(error);
     });
-//详细链接：https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform
+//参考：https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform
+```
+
+子网格操作
+
+```js
+//获取的为当前页面所勾选的子网格信息
+var rows = Xrm.Page.getControl("子网格名称").getGrid().getSelectedRows();
+//获取所有行
+var rows = Xrm.Page.getControl("子网格名称").getGrid().getRows();
+rows.forEach(function (row, i) {
+//将子网格中字段名为以下操作中的名称的值全部循环出来
+    var new_stuachievement = row2.get(i).getData().getEntity().attributes.get("new_stuachievement").getValue();
+    var new_name = row2.get(i).getData().getEntity().attributes.get("new_name").getValue();
+    var new_stuclass = row2.get(i).getData().getEntity().attributes.get("new_stuclass").getValue();
+});
+```
+
+打开查找控件
+
+```js
+var lookupOptions = 
+{
+  defaultEntityType: "account",
+   entityTypes: ["account"],
+  allowMultiSelect: false,
+   defaultViewId:"0D5D377B-5E7C-47B5-BAB1-A5CB8B4AC10",
+   viewIds:["0D5D377B-5E7C-47B5-BAB1-A5CB8B4AC10","00000000-0000-0000-00AA-000010001003"],
+   searchText:"Allison",
+   filters: [{filterXml: "<filter type='or'><condition attribute='name' operator='like' value='A%' /></filter>",entityLogicalName: "account"}]
+};
+
+Xrm.Utility.lookupObjects(lookupOptions).then(
+  function(success){
+console.log(success);},
+function(error){console.log(error);});
+//参考 https://learn.microsoft.com/zh-cn/power-apps/developer/model-driven-apps/clientapi/reference/xrm-utility/lookupobjects
 ```
 
