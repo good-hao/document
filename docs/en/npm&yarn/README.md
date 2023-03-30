@@ -28,6 +28,43 @@ yarn config set registry https://registry.npm.taobao.org/  // 设置yarn镜像�
 
 
 
+# pnpm
+
+```text
+npm install pnpm -g //全局安装
+
+pnpm config get registry //查看源
+
+pnpm install 包  // 引用
+
+pnpm i 包 //引用
+
+pnpm add 包  // -S  默认写入dependencies
+
+pnpm add -D  // -D devDependencies
+
+pnpm add -g  // 全局安装
+
+pnpm remove 包  //移除包
+
+pnpm remove 包 --global  //移除全局包
+
+pnpm up  //更新所有依赖项
+
+pnpm upgrade 包  //更新包
+
+pnpm upgrade 包 --global  //更新全局包
+
+pnpm config set registry https://registry.npmmirror.com/ //切换淘宝源
+
+```
+
+
+
+
+
+
+
 
 
 # 镜像源地址部分如下：
@@ -35,9 +72,9 @@ yarn config set registry https://registry.npm.taobao.org/  // 设置yarn镜像�
 ```text
 npm --- https://registry.npmjs.org/
 
-cnpm --- https://r.cnpmjs.org/
+pnpm --- https://pnpm.js.org/installation/
 
-taobao --- https://registry.npm.taobao.org/
+cnpm --- https://r.cnpmjs.org/
 
 nj --- https://registry.nodejitsu.com/
 
@@ -47,6 +84,10 @@ npmMirror --- https://skimdb.npmjs.com/registry/
 
 deunpm --- http://registry.enpmjs.org/
 ```
+
+
+
+
 
 
 
