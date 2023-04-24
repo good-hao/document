@@ -110,6 +110,7 @@ Xrm.Utility.closeProgressIndicator();
 ## 数据操作
 
 ```js
+//实体后一定要加上“s”
 var data =
 {
     new_orderdetail_code: "test1001",
@@ -126,6 +127,7 @@ function createDate() {
         });
 }
 
+//实体后一定要加上“s”
 data = {
     new_orderdetail_sort: 5,
     "new_orderdetail_order@odata.bind":"/new_orders(7f586ee6-d04d-ed11-bba0-0017fa04b2aa)"
