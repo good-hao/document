@@ -65,11 +65,14 @@ _entity["name"]="Jack";
 var _typeOptionSetValue=_entity.GetAttributeValue<OptionSetValue>("status");
 赋值：
 _entity["name"]=new OptionSetValue(10);
+
+11.获取数据
+Entity entity = service.Retrieve(entityName, entityId, new ColumnSet(true));
 ```
 
  
 
-发送邮件
+## 发送邮件
 
 ```c#
 using System;
