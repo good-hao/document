@@ -11,8 +11,10 @@ var obj = Xrm.Page.getControl(FieldName).getAttribute().getValue();
 var entityId = Xrm.Page.data.entity.getId();
 //获取当前 Entity 的 Name
 var entityName = Xrm.Page.data.entity.getEntityName();
-//获取当前 User Id
+//获取当前 User Id 只能在表单或Web资源中使用
 var userId = Xrm.Page.context.getUserId();
+//获取当前 User Id 可以在任何地方使用
+var userId = Xrm.Utility.getGlobalContext().userSettings.userId;
 //获取当前页面所有赋值的字段的情况
 console.log(Xrm.Page.data.entity.getDataXml());
 ```
