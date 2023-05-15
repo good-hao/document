@@ -35,9 +35,9 @@ npm install pnpm -g //全局安装
 
 pnpm config get registry //查看源
 
-pnpm install 包  // 引用
+pnpm install // 引用
 
-pnpm i 包 //引用
+pnpm i //引用
 
 pnpm add 包  // -S  默认写入dependencies
 
@@ -71,6 +71,8 @@ pnpm config set registry https://registry.npmmirror.com/ //切换淘宝源
 
 ```text
 npm --- https://registry.npmjs.org/
+
+yarn --- https://registry.yarnpkg.com
 
 pnpm --- https://pnpm.js.org/installation/
 
