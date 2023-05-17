@@ -1,6 +1,8 @@
-# element-ui-admin与vxe-table集成开发
+# element-ui
 
-## 安装篇
+## element-ui-admin与vxe-table集成开发
+
+### 安装篇
 
 安装命令
 
@@ -28,7 +30,7 @@ npm install --save @fortawesome/vue-fontawesome
 npm install --save @fortawesome/free-solid-svg-icons
 ```
 
-## 应用篇
+### 应用篇
 
 使用示例
 
@@ -94,7 +96,7 @@ export default {
 }
 ```
 
-### 解决 el-card 与 vxe-table同时使用，可能会出现双线问题。
+#### 解决 el-card 与 vxe-table同时使用，可能会出现双线问题。
 
 ```
 <el-row>
