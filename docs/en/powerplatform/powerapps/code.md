@@ -91,11 +91,13 @@ msbuild /p:configuration=Release
 第二种：生成/发布解决方案包(修改可用的方案)
 
 ```
+//生成发布非托管方案
 dotnet msbuild /t:build /restore
+//生成托管方案（推荐），保持发布者是命令行中定义的
 dotnet msbuild /p:configuration=Release
 ```
 
-第三种：生成/发布解决方案包(推荐)
+第三种：生成/发布解决方案包
 
 ```text
 dotnet build
