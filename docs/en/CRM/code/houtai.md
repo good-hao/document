@@ -70,7 +70,24 @@ _entity["name"]=new OptionSetValue(10);
 Entity entity = service.Retrieve(entityName, entityId, new ColumnSet(true));
 ```
 
- 
+
+
+##  抛出异常
+
+```
+//插件运行的错误会被写入System job
+try
+{
+   
+}
+catch (FaultException ex)
+{
+    throw new InvalidPluginExecutionException( "Err occurred." , ex.Message);
+}
+
+```
+
+
 
 ## 发送邮件
 

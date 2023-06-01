@@ -6,6 +6,9 @@ const sidebar = {
     '/CRM/code/qianduan',
     '/CRM/code/houtai'
   ],
+  "crmplugin":[
+    '/CRM/plug-in/PluginRegistration'
+  ],
   'powerapps':[
     '/powerplatform/powerapps/code',
     '/powerplatform/powerapps/view'

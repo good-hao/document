@@ -52,8 +52,8 @@ cd Solutions
 初始化Dataverse 解决方案
 
 ```text
-pac solution init --publisher-name 发布者(DefaultPublisherorgde161028) --publisher-prefix 发布者前缀(new)
-pac solution init --publisher-name DefaultPublisherorgde161028 --publisher-prefix new
+pac solution init --publisher-name 发布者(chxue) --publisher-prefix 发布者前缀(xch)
+pac solution init --publisher-name chxue --publisher-prefix xch
 ```
 
 
@@ -200,7 +200,31 @@ control-type: 代码组件类型。仅支持标准类型的代码组件-->
       
 
     </external-service-usage>
-    <!-- 该节点标识控件可以从CDS获取特定的、可配置的数据块。of-type属性也可以是of-type-group属性，of-type属性包含TwoOptions，Enum，Multiple，SingleLine.Text，numbers。usage属性包含bound、input，output。input输入，output输出，bound绑定行为，如选择文件-->
+    <!-- 该节点标识控件可以从CDS获取特定的、可配置的数据块。of-type属性也可以是of-type-group属性，of-type属性包含Whole.None：整数类型。
+TwoOptions：两个选项的布尔类型。
+DateAndTime.DateOnly：仅包含日期的日期和时间类型。
+DateAndTime.DateAndTime：日期和时间类型。
+Decimal：小数类型。
+Enum：枚举类型。
+FP：浮点数类型。
+Multiple：多个值的类型。
+Currency：货币类型。
+OptionSet：选项集类型。
+SingleLine.Email：电子邮件类型。
+SingleLine.Text：单行文本类型。
+SingleLine.TextArea：多行文本类型。
+SingleLine.URL：URL 类型。
+SingleLine.Ticker：股票代码类型。
+SingleLine.Phone：电话类型。
+Object：对象类型。
+File：文件类型。
+Lookup.Simple：简单查找类型。
+Lookup.Customer：客户查找类型。
+Lookup.Owner：所有者查找类型。
+Lookup.PartyList：参与者列表类型。
+Lookup.Regarding：关于查找类型。
+MultiSelectOptionSet：多选选项集类型
+。usage属性包含bound、input，output。input输入，output输出，bound绑定行为，如选择文件-->
     <property name="ImageUploadProperty" display-name-key="ImageUpload_Display_Key" description-key="ImageUpload_Description" of-type="Multiple" usage="bound" required="true" />
     <!--
       <type-group name="numbers">

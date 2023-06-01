@@ -17,6 +17,15 @@ var userId = Xrm.Page.context.getUserId();
 var userId = Xrm.Utility.getGlobalContext().userSettings.userId;
 //获取当前页面所有赋值的字段的情况
 console.log(Xrm.Page.data.entity.getDataXml());
+//根据id查询表单中的数据
+Xrm.WebApi.retrieveRecord("new_main", formContext.getAttribute("new_detail").getValue()[0].id.replace("{", "").replace("}", "").toLowerCase(),"?$select=new_main_field").then(
+                        function success(result) {
+                            console.log(result.new_main_field)
+                        },
+                        function (error) {
+                            console.log(error.message);
+                        }
+                    );
 ```
 
 ## 赋值
@@ -103,10 +112,16 @@ function PageOnSave(exeContext){
     //Xrm.Page = formContext
 }
 exeContext.getEventArgs().preventDefault();
-//显示消息
+//显示进度对话框
 Xrm.Utility.showProgressIndicator("正在执行...");
 //关闭进度对话框
 Xrm.Utility.closeProgressIndicator();
+//弹出框
+Xrm.Utility.alertDialog("请稍后重试。");
+Xrm.Utility.alertDialog("保存成功。", function () {
+  // 执行某些操作
+});
+parent.Xrm.Utility.alertDialog("这是一个嵌入式窗体中的警告消息。");
 ```
 
 ## 数据操作
@@ -161,6 +176,28 @@ Xrm.Navigation.openForm(entityFormOptions,formParameters).then(//entityFormOptio
 //参考：https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/xrm-navigation/openform
 ```
 
+## 打开确认对话框
+
+```js
+var confirmStrings = { text:"确定删除吗?", title:"窗体", subtitle:"This action cannot be undone." };
+var confirmOptions = { height: 200, width: 450 };
+Xrm.Navigation.openConfirmDialog(confirmStrings, confirmOptions).then(
+    function (success) {
+        if (success.confirmed) {
+            // User confirmed the action
+        } else {
+            // User cancelled the action
+        }
+    },
+    function (error) {
+        console.log(error.message);
+    }
+);
+
+```
+
+
+
 ## 子网格操作
 
 ```js
@@ -201,7 +238,7 @@ Xrm.WebApi.retrieveMultipleRecords(subGridentityName, "?fetchXml=" + encodeURICo
 
 ## 打开查找控件
 
-```js
+```javascript
 var lookupOptions =
 {
   defaultEntityType: "account",
@@ -222,5 +259,34 @@ Xrm.Utility.lookupObjects(lookupOptions).then(
   }
 );
 //参考 https://learn.microsoft.com/zh-cn/power-apps/developer/model-driven-apps/clientapi/reference/xrm-utility/lookupobjects
+```
+
+## 使用接口
+
+```javascript
+var actionName = "new_customaction";
+var parameters = {
+  "param1": "value1",
+  "param2": 2
+};
+var parameterTypes = {
+  "param1": "Edm.String",
+  "param2": "Edm.Int32"
+};
+//如果执行的自定义动作不绑定到特定实体记录，而是作为全局动作执行，则不需要提供 boundParameter 参数
+var boundParameter = {
+  "entityName": "account",
+  "entityId": "00000000-0000-0000-0000-000000000001"
+};
+Xrm.WebApi.online.execute(actionName, parameters, parameterTypes, boundParameter).then(
+  function (response) {
+    // 处理自定义动作执行的响应
+    console.log(response);
+  },
+  function (error) {
+    // 处理自定义动作执行过程中的错误
+    console.log(error);
+  }
+);
 ```
 

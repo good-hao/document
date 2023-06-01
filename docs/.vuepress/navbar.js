@@ -23,7 +23,7 @@ const navbar = {
         {
           'text-en': 'Wechat Group',
           'text-zh': '微信群',
-          link: 'https://github.com/Armour/vue-typescript-admin-template/issues/62',
+          link: 'https://vue-typescript-admin-template/issues/62',
         }
       ]
     }

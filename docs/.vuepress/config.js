@@ -55,6 +55,10 @@ module.exports = {
             {
               title: '代码',
               children: getSidebarByCategory('crmcode', 'zh')
+            },
+            {
+              title: '插件',
+              children: getSidebarByCategory('crmplugin', 'zh')
             }
           ],
           '/powerplatform/': [
@@ -91,6 +95,10 @@ module.exports = {
             {
               title: 'code',
               children: getSidebarByCategory('crmcode', 'en')
+            },
+            {
+              title: 'plug-in',
+              children: getSidebarByCategory('crmplugin', 'en')
             }
           ],
           '/en/powerplatform/': [
