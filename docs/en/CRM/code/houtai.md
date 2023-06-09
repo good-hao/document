@@ -72,6 +72,99 @@ Entity entity = service.Retrieve(entityName, entityId, new ColumnSet(true));
 
 
 
+## 查询数据
+
+```C#
+//查询表达式（QueryExpression）
+using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+
+// 创建组织服务对象
+IOrganizationService service = new OrganizationServiceProxy(...);
+// 实体名称
+string entityName = "account";
+// 构建查询表达式
+QueryExpression query = new QueryExpression(entityName)
+{
+    ColumnSet = new ColumnSet(true),
+    //ColumnSet = new ColumnSet("fieldname1", "fieldname2", "fieldname3"),
+    //Criteria = new FilterExpression
+    //{
+    //    Conditions =
+    //    {
+    //        // 添加过滤条件
+    //        new ConditionExpression("name", ConditionOperator.Equal, "条件值")
+    //    }
+   // }
+};
+// 执行查询
+EntityCollection results = service.RetrieveMultiple(query);
+// 处理查询结果
+foreach (Entity entity in results.Entities)
+{
+    // 处理每个实体的数据
+    if (entity.Contains("fieldname1"))
+    {
+        var fieldValue1 = entity["fieldname1"];
+        // 处理字段1的值
+    }
+}
+
+
+//使用 FetchXML 
+// 创建组织服务对象
+IOrganizationService service = new OrganizationServiceProxy(...);
+// 实体名称
+string entityName = "account";
+// 构建 FetchXML 查询
+string fetchXml = $@"
+<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>
+    <entity name='{entityName}'>
+        <all-attributes />
+        //<attribute name='fieldname1' />
+        //<attribute name='fieldname2' />
+        //<attribute name='fieldname3' />
+        //<filter type='and'>
+        //    <condition attribute='name' operator='eq' value='条件值' />
+        //</filter>
+    </entity>
+</fetch>";
+// 执行 FetchXML 查询
+EntityCollection results = service.RetrieveMultiple(new FetchExpression(fetchXml));
+// 处理查询结果
+foreach (Entity entity in results.Entities)
+{
+    // 处理每个实体的数据
+    if (entity.Contains("fieldname1"))
+    {
+        var fieldValue1 = entity["fieldname1"];
+        // 处理字段1的值
+    }
+}
+
+```
+
+## 更新数据
+
+```c#
+// 创建组织服务对象
+IOrganizationService service = new OrganizationServiceProxy(...);
+// 实体名称
+string entityName = "account";
+// 要更新的实体的唯一标识符（Guid）
+Guid entityId = new Guid("实体的唯一标识符");
+// 构建查询表达式以检索要更新的实体
+ColumnSet columnsToUpdate = new ColumnSet("name", "telephone1");
+Entity retrievedEntity = service.Retrieve(entityName, entityId, columnsToUpdate);
+// 更新实体的属性值
+retrievedEntity["name"] = "新的名称";
+retrievedEntity["telephone1"] = "新的电话号码";
+// 使用 Update 方法保存更改
+service.Update(retrievedEntity);
+```
+
+
+
 ##  抛出异常
 
 ```
