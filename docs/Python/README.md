@@ -76,3 +76,18 @@ closefd: 传入的file参数类型
 opener: 设置自定义开启器，开启器的返回值必须是一个打开的文件描述符。
 ```
 
+
+
+## Anaconda
+
+```
+conda -V				--查看版本
+conda info				--查看当前环境的信息
+conda info -e			--查看创建的环境
+conda create -n <env_name> <package_names>		--创建环境 conda create -n python311 python=3.11
+conda create -n <new_env_name> --clone <copied_env_name>		--复制环境
+conda activate python37		--激活注定版本
+conda deactivate			--退出
+conda install pandas numpy  --安装相关包
+```
+

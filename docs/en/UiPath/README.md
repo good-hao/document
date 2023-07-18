@@ -4,17 +4,17 @@
 
 使用Split需要加上StringSplitOptions.None
 
-![](images/1.png)
+![](./images/1.png)
 
 鼠标放到“aaname”右键单击
 
 使用单击控件：选择“文本为”，必须在后面输入值，aaname后可以输入值，选择“忽略文本”，aaname后必须输入值
 
-![](images/2.png)
+![](./images/2.png)
 
 
 
-![](images/3.png)
+![](./images/3.png)
 
 
 
@@ -22,7 +22,7 @@
 
 使用“调用代码”
 
-![](images/4.png)
+![](./images/4.png)
 
 ```c#
 System.Reflection.Assembly assembly = System.Reflection.Assembly.LoadFrom(@"uipathtest.dll");
@@ -61,14 +61,20 @@ namespace uipathtest
 uipath需要下载python依赖（UiPath.Python.Activities）
 
 
-![](images/5.png)
+![](./images/5.png)
 
 
 
-![](images/6.png)
+![](./images/6.png)
 
 这里的输入参数只能使用string[]类型
 
-![](images/7.png)
+![](./images/7.png)
 
-![](images/8.png)
+![](./images/8.png)
+
+## Excel
+
+读取范围的传值方式
+
+![](./images/9.png)
