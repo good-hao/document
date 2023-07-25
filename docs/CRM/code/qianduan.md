@@ -15,6 +15,10 @@ var entityName = Xrm.Page.data.entity.getEntityName();
 var userId = Xrm.Page.context.getUserId();
 //获取当前 User Id 可以在任何地方使用
 var userId = Xrm.Utility.getGlobalContext().userSettings.userId;
+//获取登录用户的用户名
+Xrm.Page.context.getUserName()
+//获取登录用户的角色id
+Xrm.Page.context.getUserRoles()
 //获取当前页面所有赋值的字段的情况
 console.log(Xrm.Page.data.entity.getDataXml());
 //根据id查询表单中的数据
@@ -39,6 +43,8 @@ Xrm.Page.getAttribute(FieldName).setValue(1);//OptionSet的对应选项的Value
 Xrm.Page.getAttribute(FieldName).setValue([{ id:"record id", name: "sValue", entityType: "Entity Name" }]);
 //DateOnly类型
 Xrm.Page.getAttribute(FieldName).setValue(new Date());
+//给字段赋值后自动提交
+Xrm.Page.getAttribute(FieldName).setSubmitMode("value")
 ```
 
 ## 错误提示
@@ -57,7 +63,7 @@ Xrm.Page.getConrol(FieldName).clearNotification();
 Xrm.Page.getControl(FieldName).setDisabled(true);
 //设置Enable
 Xrm.Page.getControl(FieldName).setDisabled(false);
-//设置必填
+//设置必填 (required必填，recommended业务推荐)
 Xrm.Page.getAttribute(FieldName).setRequiredLevel("required");
 //设置可选
 Xrm.Page.getAttribute(FieldName).setRequiredLevel("none");
@@ -65,35 +71,34 @@ Xrm.Page.getAttribute(FieldName).setRequiredLevel("none");
 Xrm.Page.getControl(FieldName).setVisible(true);
 //隐藏字段
 Xrm.Page.getControl(FieldName).setVisible(false);
+//锁定字段 （页眉字段加header_）
+Xrm.Page.getControl(FieldName).setDisabled(true);
+//解锁字段
+Xrm.Page.getControl(FieldName).setDisabled(false);
+//设置聚焦
+Xrm.Page.getControl(FieldName).setFocus()
+//刷新单个字段
+Xrm.Page.getAttribute(FieldName).fireOnChange()
+//删除选项集中的选项
+Xrm.Page.getControl(FieldName).removeOption("value")
 //添加事件
 Xrm.Page.getControl(FieldName).getAttribute().addOnChange(fnOnChange);
 ```
 
-## 控制Tab是否可见
+## Tab操作
 
 ```js
+控制Tab是否可见
 Xrm.Page.ui.tabs.get("tab_Name").setVisible(true);
-```
-
-## 控制Section是否可见
-
-```js
+//获取所有Tab
+Xrm.Page.ui.tabs.getAll()
+//获取Tab文本
+Xrm.Page.ui.tabs.getByName("tabid").getLabel()
+//设置Tab值
+Xrm.Page.ui.tabs.getByName("tabid").setLabel("value")
+//控制Section是否可见
 Xrm.Page.ui.tabs.get("tab_Name").sections.get("section_name").setVisible(true);
-```
 
-## 判断当前 form 的状态
-
-```js
-if (Xrm.Page.ui.getFormType() == 1){
-    //1:Create
-}
-else{
-    //0:Undefined
-    //2:Update
-    //3:Read Only
-    //4:Disabled
-    //6:Bulk Edit
-}
 ```
 
 ##  表单操作
@@ -104,7 +109,9 @@ Xrm.Page.data.entity.save();
 //刷新表单
 Xrm.Page.data.refresh();
 //刷新视图
-Mscrm.Utilities.refreshCurrentGrid(etc number);//在新窗口中打开表单时，完整url中包含该值。
+Mscrm.Utilities.refreshCurrentGrid(number);
+//关闭当前页面
+Xrm.Page.ui.close()
 // 阻止当前页面保存
 // 阻止当前页面保存，需要勾选 Pass execution context as first parameter(将执行上下文作为第一个参数传递)
 function PageOnSave(exeContext){
@@ -122,6 +129,20 @@ Xrm.Utility.alertDialog("保存成功。", function () {
   // 执行某些操作
 });
 parent.Xrm.Utility.alertDialog("这是一个嵌入式窗体中的警告消息。");
+//获取当前表单名称
+Xrm.Page.ui.formSelector.getCurrentItem().getLabel()
+//判断当前 form 的状态
+if (Xrm.Page.ui.getFormType() == 1){
+    //1:Create
+}
+else{
+    //0:Undefined
+    //2:Update
+    //3:Read Only
+    //4:Disabled
+    //6:Bulk Edit
+}
+
 ```
 
 ## 数据操作
@@ -162,9 +183,11 @@ function updateDate() {
 }
 ```
 
-## 打开实体窗体或创建窗体
+## 打开实体表单或创建表单
 
 ```js
+//打开表单
+Xrm.Utility.openEntityForm("entityname","entityid")
 //Xrm.Navigation.openForm({ "entityName": "entityName", "entityId": "entityId" });
 Xrm.Navigation.openForm(entityFormOptions,formParameters).then(//entityFormOptions必填
     function (success) {
