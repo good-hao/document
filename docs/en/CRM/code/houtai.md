@@ -175,7 +175,7 @@ try
 }
 catch (FaultException ex)
 {
-    throw new InvalidPluginExecutionException( "Err occurred." , ex.Message);
+    throw new InvalidPluginExecutionException(ex.Message);
 }
 
 ```

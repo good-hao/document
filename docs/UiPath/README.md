@@ -78,3 +78,11 @@ uipath需要下载python依赖（UiPath.Python.Activities）
 读取范围的传值方式
 
 ![](./images/9.png)
+
+## 重试范围
+
+重试次数包括首次运行的次数；
+
+会运行出错之前的模块；
+
+![](./images/10.png)
