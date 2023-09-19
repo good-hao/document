@@ -201,14 +201,54 @@ public class EmailHelper
     /// <summary>
     /// 创建电子邮件
     /// </summary>
-    public void Create()
+    public static Guid CreateEmailRecord(IOrganizationService service, EntityCollection ccEntities, EntityCollection toEntities, string subject="主题" ,string emailMessage="内容")
+        {
+            Entity email = new Entity("email");
+            Entity fromParty = new Entity("activityparty");
+            string guid = GetConfigurationValue(service, "SystemUser_SendEmail");//发送人的guid
+            fromParty["partyid"] = new EntityReference("systemuser", new Guid(guid));
+
+            Entity[] entities = new Entity[toEntities.Entities.Count];
+            Entity[] ccentities = new Entity[ccEntities.Entities.Count];
+
+            for (int i = 0; i < toEntities.Entities.Count; i++)
+            {
+                Entity toParty = new Entity("activityparty");
+                //toParty["partyid"] = new EntityReference(toEntities.Entities[i].LogicalName, toEntities.Entities[i].Id);
+                toParty["addressused"] = GetEmail(service, toEntities.Entities[i].Id);//收件人的邮箱
+                entities[i] = toParty;
+            }
+            for (int i = 0; i < ccEntities.Entities.Count; i++)
+            {
+                Entity ccParty = new Entity("activityparty");
+                //ccParty["partyid"] = new EntityReference(ccEntities.Entities[i].LogicalName, ccEntities.Entities[i].Id);
+                ccParty["addressused"] = GetEmail(service, ccEntities.Entities[i].Id);
+                ccentities[i] = ccParty;
+            }
+            email["from"] = new Entity[] { fromParty };
+            email["to"] = entities;
+            if (ccentities.Length > 0)
+                email["cc"] = ccentities;
+            email["subject"] = subject;
+            email["directioncode"] = true;
+            email["description"] = emailMessage;
+
+            return service.Create(email);
+        }
+    
+    /// <summary>
+    /// 发送电子邮件
+    /// </summary>
+    public void SendEmail()
     {
-        Entity en = new Entity();
-        en["subject"] = "电子邮件测试";
-        en["activityId"] = Guid.NewGuid();
-        emailId = service.Create(en);
+        SendEmailRequest request = new SendEmailRequest();
+        request.EmailId = emailId;
+        request.IssueSend = true;
+        request.TrackingToken = "";
+        SendEmailResponse response = (SendEmailResponse)service.Execute(request);
+        string subject = response.Subject;
     }
- 
+
     /// <summary>
     /// 异步发送电子邮件
     /// </summary>
@@ -220,21 +260,6 @@ public class EmailHelper
         BackgroundSendEmailResponse response = (BackgroundSendEmailResponse)service.Execute(request);
         EntityCollection entityCollection = response.EntityCollection;
         bool[] hasAttachments = response.HasAttachments;
-    }
- 
-    /// <summary>
-    /// 检查是否应该将传入电子邮件提升到 Microsoft Dynamics CRM 系统
-    /// </summary>
-    /// <param name="messageId">消息id</param>
-    /// <param name="subject">主题</param>
-    public void CheckPromoteEmail(string messageId,string subject)
-    {
-        CheckPromoteEmailRequest request = new CheckPromoteEmailRequest();
-        request.MessageId = messageId;
-        request.Subject = subject;
-        CheckIncomingEmailResponse response = (CheckIncomingEmailResponse)service.Execute(request);
-        int reasonCode = response.ReasonCode;
-        bool shouldDeliver = response.ShouldDeliver;
     }
  
     /// <summary>
@@ -280,34 +305,30 @@ public class EmailHelper
     }
  
     /// <summary>
-    /// 发送电子邮件
-    /// </summary>
-    public void SendEmail()
-    {
-        SendEmailRequest request = new SendEmailRequest();
-        request.EmailId = emailId;
-        request.IssueSend = true;
-        request.TrackingToken = "";
-        SendEmailResponse response = (SendEmailResponse)service.Execute(request);
-        string subject = response.Subject;
-    }
- 
-    /// <summary>
-    /// 获取用于对存储在 Microsoft Dynamics CRM 数据库中的用户或队列的电子邮件凭据进行加密或解密的密钥
-    /// </summary>
-    public void GetDecryptionKey()
-    {
-        GetDecryptionKeyRequest request = new GetDecryptionKeyRequest();
-        GetDecryptionKeyResponse response = (GetDecryptionKeyResponse)service.Execute(request);
-        string key = response.Key;
-    }
- 
-    /// <summary>
     /// 删除电子邮件
     /// </summary>
     public void Delete()
     {
         service.Delete(entityName, emailId);
     }
+    
+    sendemail()
+    {
+        string smtpServer = "smtp.qiye.aliyun.com";
+        int smtpPort = 25;
+        string smtpUserName = "messengers@c-denkei.com";
+        string smtpPassword = "ZuDjFM!9GgbW1";
+        var smtpClient = new SmtpClient(smtpServer, smtpPort);
+        smtpClient.UseDefaultCredentials = false;
+        smtpClient.Credentials = new NetworkCredential(smtpUserName, smtpPassword);
+        smtpClient.EnableSsl = true;
+        var mail = new MailMessage();
+        mail.From = new MailAddress(smtpUserName);
+        mail.Subject = subject;
+        mail.Body = emailMessage;
+        mail.IsBodyHtml = true;
+        smtpClient.Send(mail);
+    }
+    
 }
 ```
