@@ -17,6 +17,7 @@ var userId = Xrm.Page.context.getUserId();
 var userId = Xrm.Utility.getGlobalContext().userSettings.userId;
 //获取登录用户的用户名
 Xrm.Page.context.getUserName()
+Xrm.Utility.getGlobalContext().userSettings.userName
 //获取登录用户的角色id
 Xrm.Page.context.getUserRoles()
 //获取当前页面所有赋值的字段的情况
@@ -30,6 +31,8 @@ Xrm.WebApi.retrieveRecord("new_main", formContext.getAttribute("new_detail").get
                             console.log(error.message);
                         }
                     );
+//获取环境组织名称
+Xrm.Utility.getGlobalContext().getOrgUniqueName()
 ```
 
 ## 赋值
