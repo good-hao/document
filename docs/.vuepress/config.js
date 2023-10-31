@@ -63,8 +63,12 @@ module.exports = {
           ],
           '/powerplatform/': [
             {
-              title: '发布',
+              title: 'Apps',
               children: getSidebarByCategory('powerapps', 'zh')
+            },
+            {
+              title: 'Automate',
+              children: getSidebarByCategory('powerautomate', 'zh')
             }
           ]
         }
@@ -103,8 +107,12 @@ module.exports = {
           ],
           '/en/powerplatform/': [
             {
-              title: 'Power Apps',
+              title: 'Apps',
               children: getSidebarByCategory('powerapps', 'en')
+            },
+            {
+              title: 'Automate',
+              children: getSidebarByCategory('powerautomate', 'en')
             }
           ]
         }

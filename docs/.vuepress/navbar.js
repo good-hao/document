@@ -5,8 +5,8 @@ const navbar = {
       'text-zh': '项目',
       items: [
         {
-          'text-en': 'vue-typescript-admin',
-          'text-zh': 'vue-element-admin管理',
+          'text-en': 'admin',
+          'text-zh': '管理',
           link: 'https://github.com/Armour/vue-typescript-admin-template'
         }
       ]

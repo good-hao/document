@@ -12,6 +12,9 @@ const sidebar = {
   'powerapps':[
     '/powerplatform/powerapps/code',
     '/powerplatform/powerapps/view'
+  ],
+  'powerautomate':[
+    '/powerplatform/powerautomate/view'
   ]
 }
 
