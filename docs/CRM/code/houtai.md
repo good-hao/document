@@ -97,6 +97,14 @@ QueryExpression query = new QueryExpression(entityName)
     //    }
    // }
 };
+//如果是lookup字段，使用Guid，需要带“{}”
+query.Criteria.AddCondition("createdby", ConditionOperator.Equal, new Guid("{8b777f76-9c74-ee11-8dee-0017fa032ff8}"));
+//根据用户名查询id
+QueryExpression userQuery = new QueryExpression("systemuser");
+userQuery.ColumnSet = new ColumnSet("systemuserid");
+userQuery.Criteria.AddCondition("fullname", ConditionOperator.Equal, "RPA#");
+EntityCollection userResult = service.RetrieveMultiple(userQuery);
+Guid userId = userResult.Entities[0].Id;
 // 执行查询
 EntityCollection results = service.RetrieveMultiple(query);
 // 处理查询结果
