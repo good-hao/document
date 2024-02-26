@@ -6,10 +6,11 @@
 
 ```typescript
 declare module '*.vue' {
-  import { DefineComponent } from 'vue';
-  const component: DefineComponent<{}, {}, any>;
-  export default component;
-}
+    import { DefineComponent, defineComponent } from 'vue';
+    // const component: DefineComponent<{}, {}, any>;
+    const component: ReturnType<typeof defineComponent>;
+    export default component;
+  }
 ```
 
 ## 启用热更新
