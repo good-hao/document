@@ -1,21 +1,34 @@
 const sidebar = {
-  'crmpublish': [
-    '/CRM/publish/operation'
+  // 'crmpublish': [
+  //   '/CRM/publish/operation'
+  // ],
+  // 'crmcode': [
+  //   '/CRM/code/qianduan',
+  //   '/CRM/code/houtai'
+  // ],
+  // "crmplugin":[
+  //   '/CRM/plug-in/PluginRegistration'
+  // ],
+  // 'powerapps':[
+  //   '/powerplatform/powerapps/code',
+  //   '/powerplatform/powerapps/view'
+  // ],
+  // 'powerautomate':[
+  //   '/powerplatform/powerautomate/view'
+  // ]
+  'vueproblem': [
+    '/Vue/problem'
   ],
-  'crmcode': [
-    '/CRM/code/qianduan',
-    '/CRM/code/houtai'
+  'vuestudy': [
+    '/Vue/study'
   ],
-  "crmplugin":[
-    '/CRM/plug-in/PluginRegistration'
+  'ngintroduce': [
+    '/nginx/introduce'
   ],
-  'powerapps':[
-    '/powerplatform/powerapps/code',
-    '/powerplatform/powerapps/view'
-  ],
-  'powerautomate':[
-    '/powerplatform/powerautomate/view'
+  'ngconfiguration': [
+    '/nginx/configuration'
   ]
+
 }
 
 function getSidebarByCategory(category, lang = 'zh') {

@@ -7,7 +7,8 @@ const navbar = {
         {
           'text-en': 'admin',
           'text-zh': '管理',
-          link: 'https://github.com/Armour/vue-typescript-admin-template'
+          // link: 'https://github.com/Armour/vue-typescript-admin-template'
+          link: ''
         }
       ]
     },
@@ -23,7 +24,8 @@ const navbar = {
         {
           'text-en': 'Wechat Group',
           'text-zh': '微信群',
-          link: 'https://vue-typescript-admin-template/issues/62',
+          // link: 'https://vue-typescript-admin-template/issues/62'
+          link: ''
         }
       ]
     }

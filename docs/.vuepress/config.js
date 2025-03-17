@@ -33,57 +33,96 @@ module.exports = {
         selectText: '选择语言',
         label: '简体中文',
         nav: [
+          // {
+          //   text: 'D365 CRM 文档',
+          //   link: '/CRM/'
+          // },
+          // {
+          //   text: 'Power Platform',
+          //   link: '/powerplatform/'
+          // },
           {
-            text: 'D365 CRM 文档',
-            link: '/CRM/'
+            text: 'Vue',
+            link: '/Vue/'
           },
           {
-            text: 'Power Platform',
-            link: '/powerplatform/'
+            text: 'Nginx',
+            link: '/nginx/'
           },
           {
             text: '生态系统',
             items: getNavbarByCategory('ecosystem', 'zh')
           }
+
         ],
         sidebar: {
-          '/CRM/': [
+          // '/CRM/': [
+          //   {
+          //     title: '发布',
+          //     children: getSidebarByCategory('crmpublish', 'zh')
+          //   },
+          //   {
+          //     title: '代码',
+          //     children: getSidebarByCategory('crmcode', 'zh')
+          //   },
+          //   {
+          //     title: '插件',
+          //     children: getSidebarByCategory('crmplugin', 'zh')
+          //   }
+          // ],
+          // '/powerplatform/': [
+          //   {
+          //     title: 'Apps',
+          //     children: getSidebarByCategory('powerapps', 'zh')
+          //   },
+          //   {
+          //     title: 'Automate',
+          //     children: getSidebarByCategory('powerautomate', 'zh')
+          //   }
+          // ]
+          '/Vue/': [
             {
-              title: '发布',
-              children: getSidebarByCategory('crmpublish', 'zh')
+              title: '问题',
+              children: getSidebarByCategory('vueproblem', 'zh')
             },
             {
-              title: '代码',
-              children: getSidebarByCategory('crmcode', 'zh')
-            },
-            {
-              title: '插件',
-              children: getSidebarByCategory('crmplugin', 'zh')
+              title: '学习',
+              children: getSidebarByCategory('vuestudy', 'zh')
             }
           ],
-          '/powerplatform/': [
+          '/nginx/': [
             {
-              title: 'Apps',
-              children: getSidebarByCategory('powerapps', 'zh')
+              title: '介绍',
+              children: getSidebarByCategory('ngintroduce', 'zh')
             },
             {
-              title: 'Automate',
-              children: getSidebarByCategory('powerautomate', 'zh')
+              title: '配置',
+              children: getSidebarByCategory('ngconfiguration', 'zh')
             }
-          ]
+          ],
+
         }
       },
+
       '/en/': {
         selectText: 'Languages',
         label: 'English',
         nav: [
+          // {
+          //   text: 'D365 CRM Document',
+          //   link: '/en/CRM/'
+          // },
+          // {
+          //   text: 'Power Platform',
+          //   link: '/en/powerplatform/'
+          // },
           {
-            text: 'D365 CRM Document',
-            link: '/en/CRM/'
+            text: 'Vue',
+            link: '/en/Vue/'
           },
           {
-            text: 'Power Platform',
-            link: '/en/powerplatform/'
+            text: 'Nginx',
+            link: '/en/nginx/'
           },
           {
             text: 'Ecosystem',
@@ -91,28 +130,48 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/en/CRM/': [
+          // '/en/CRM/': [
+          //   {
+          //     title: 'publish',
+          //     children: getSidebarByCategory('crmpublish', 'en')
+          //   },
+          //   {
+          //     title: 'code',
+          //     children: getSidebarByCategory('crmcode', 'en')
+          //   },
+          //   {
+          //     title: 'plug-in',
+          //     children: getSidebarByCategory('crmplugin', 'en')
+          //   }
+          // ],
+          // '/en/powerplatform/': [
+          //   {
+          //     title: 'Apps',
+          //     children: getSidebarByCategory('powerapps', 'en')
+          //   },
+          //   {
+          //     title: 'Automate',
+          //     children: getSidebarByCategory('powerautomate', 'en')
+          //   }
+          // ]
+          '/en/Vue/': [
             {
-              title: 'publish',
-              children: getSidebarByCategory('crmpublish', 'en')
+              title: 'problem',
+              children: getSidebarByCategory('vueproblem', 'en')
             },
             {
-              title: 'code',
-              children: getSidebarByCategory('crmcode', 'en')
-            },
-            {
-              title: 'plug-in',
-              children: getSidebarByCategory('crmplugin', 'en')
+              title: 'study',
+              children: getSidebarByCategory('vuestudy', 'en')
             }
           ],
-          '/en/powerplatform/': [
+          '/en/nginx/': [
             {
-              title: 'Apps',
-              children: getSidebarByCategory('powerapps', 'en')
+              title: 'introduce',
+              children: getSidebarByCategory('ngintroduce', 'en')
             },
             {
-              title: 'Automate',
-              children: getSidebarByCategory('powerautomate', 'en')
+              title: 'configuration',
+              children: getSidebarByCategory('ngconfiguration', 'en')
             }
           ]
         }
