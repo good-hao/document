@@ -7,6 +7,14 @@ export const siteData = {
   "base": "/",
   "pages": [
     {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/CRM/",
+      "relativePath": "CRM/README.md",
+      "key": "v-6c14d72a",
+      "path": "/CRM/"
+    },
+    {
       "title": "CRM后台操作",
       "frontmatter": {},
       "regularPath": "/CRM/code/houtai.html",
@@ -42,14 +50,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/CRM/",
-      "relativePath": "CRM/README.md",
-      "key": "v-6c14d72a",
-      "path": "/CRM/"
-    },
-    {
       "title": "使用",
       "frontmatter": {},
       "regularPath": "/CRM/plug-in/PluginRegistration.html",
@@ -66,76 +66,6 @@ export const siteData = {
           "level": 2,
           "title": "调试",
           "slug": "调试"
-        }
-      ]
-    },
-    {
-      "title": "CRM前端操作",
-      "frontmatter": {},
-      "regularPath": "/CRM/code/qianduan.html",
-      "relativePath": "CRM/code/qianduan.md",
-      "key": "v-000fbe42",
-      "path": "/CRM/code/qianduan.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "取值",
-          "slug": "取值"
-        },
-        {
-          "level": 2,
-          "title": "赋值",
-          "slug": "赋值"
-        },
-        {
-          "level": 2,
-          "title": "错误提示",
-          "slug": "错误提示"
-        },
-        {
-          "level": 2,
-          "title": "字段操作",
-          "slug": "字段操作"
-        },
-        {
-          "level": 2,
-          "title": "Tab操作",
-          "slug": "tab操作"
-        },
-        {
-          "level": 2,
-          "title": "表单操作",
-          "slug": "表单操作"
-        },
-        {
-          "level": 2,
-          "title": "数据操作",
-          "slug": "数据操作"
-        },
-        {
-          "level": 2,
-          "title": "打开实体表单或创建表单",
-          "slug": "打开实体表单或创建表单"
-        },
-        {
-          "level": 2,
-          "title": "打开确认对话框",
-          "slug": "打开确认对话框"
-        },
-        {
-          "level": 2,
-          "title": "子网格操作",
-          "slug": "子网格操作"
-        },
-        {
-          "level": 2,
-          "title": "打开查找控件",
-          "slug": "打开查找控件"
-        },
-        {
-          "level": 2,
-          "title": "使用接口",
-          "slug": "使用接口"
         }
       ]
     },
@@ -160,413 +90,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "MySql语句",
-      "frontmatter": {},
-      "regularPath": "/MySql/",
-      "relativePath": "MySql/README.md",
-      "key": "v-aad67eba",
-      "path": "/MySql/"
-    },
-    {
-      "title": "EF Core注意事项",
-      "frontmatter": {},
-      "regularPath": "/EF%20Core/",
-      "relativePath": "EF Core/README.md",
-      "key": "v-84ef7170",
-      "path": "/EF%20Core/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "生成语句",
-          "slug": "生成语句"
-        },
-        {
-          "level": 2,
-          "title": "注解",
-          "slug": "注解"
-        },
-        {
-          "level": 2,
-          "title": "外键（ForeignKey）",
-          "slug": "外键（foreignkey）"
-        }
-      ]
-    },
-    {
-      "title": "DNS",
-      "frontmatter": {},
-      "regularPath": "/DNS/",
-      "relativePath": "DNS/README.md",
-      "key": "v-d568d056",
-      "path": "/DNS/"
-    },
-    {
-      "title": "Nlog",
-      "frontmatter": {},
-      "regularPath": "/NLog/",
-      "relativePath": "NLog/README.md",
-      "key": "v-432e7aff",
-      "path": "/NLog/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "日志级别",
-          "slug": "日志级别"
-        },
-        {
-          "level": 2,
-          "title": "代码实现",
-          "slug": "代码实现"
-        },
-        {
-          "level": 2,
-          "title": "配置文件信息",
-          "slug": "配置文件信息"
-        },
-        {
-          "level": 2,
-          "title": "NLog等级使用",
-          "slug": "nlog等级使用"
-        },
-        {
-          "level": 2,
-          "title": "邮箱配置",
-          "slug": "邮箱配置"
-        },
-        {
-          "level": 2,
-          "title": "数据库配置",
-          "slug": "数据库配置"
-        }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "images/hero.png",
-        "features": [
-          {
-            "title": "国际化",
-            "details": "内建业界通用的国际化方案"
-          },
-          {
-            "title": "主题",
-            "details": "支持多种动态换肤功能"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2023"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5c096c5c",
-      "path": "/"
-    },
-    {
-      "title": "Python",
-      "frontmatter": {},
-      "regularPath": "/Python/",
-      "relativePath": "Python/README.md",
-      "key": "v-12a9bfbf",
-      "path": "/Python/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Python 缩进",
-          "slug": "python-缩进"
-        },
-        {
-          "level": 2,
-          "title": "变量",
-          "slug": "变量"
-        },
-        {
-          "level": 2,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 2,
-          "title": "pass",
-          "slug": "pass"
-        },
-        {
-          "level": 2,
-          "title": "File",
-          "slug": "file"
-        },
-        {
-          "level": 2,
-          "title": "Anaconda",
-          "slug": "anaconda"
-        }
-      ]
-    },
-    {
-      "title": "TypeScript",
-      "frontmatter": {},
-      "regularPath": "/TypeScript/",
-      "relativePath": "TypeScript/README.md",
-      "key": "v-32dc97c2",
-      "path": "/TypeScript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "prototype属性",
-          "slug": "prototype属性"
-        },
-        {
-          "level": 2,
-          "title": "some",
-          "slug": "some"
-        },
-        {
-          "level": 2,
-          "title": "every",
-          "slug": "every"
-        },
-        {
-          "level": 2,
-          "title": "map",
-          "slug": "map"
-        },
-        {
-          "level": 2,
-          "title": "lastIndexOf",
-          "slug": "lastindexof"
-        },
-        {
-          "level": 2,
-          "title": "数组迭代",
-          "slug": "数组迭代"
-        },
-        {
-          "level": 2,
-          "title": "interface接口",
-          "slug": "interface接口"
-        },
-        {
-          "level": 2,
-          "title": "implements实现",
-          "slug": "implements实现"
-        },
-        {
-          "level": 2,
-          "title": "static 关键字",
-          "slug": "static-关键字"
-        },
-        {
-          "level": 2,
-          "title": "instanceof 运算符",
-          "slug": "instanceof-运算符"
-        },
-        {
-          "level": 2,
-          "title": "访问控制修饰符",
-          "slug": "访问控制修饰符"
-        },
-        {
-          "level": 2,
-          "title": "对象",
-          "slug": "对象"
-        },
-        {
-          "level": 2,
-          "title": "export",
-          "slug": "export"
-        },
-        {
-          "level": 2,
-          "title": "import",
-          "slug": "import"
-        },
-        {
-          "level": 2,
-          "title": "声明文件",
-          "slug": "声明文件"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/Typroa/flow-chart.html",
-      "relativePath": "Typroa/flow-chart.md",
-      "key": "v-d5633868",
-      "path": "/Typroa/flow-chart.html"
-    },
-    {
-      "title": "UiPath",
-      "frontmatter": {},
-      "regularPath": "/UiPath/",
-      "relativePath": "UiPath/README.md",
-      "key": "v-900dcbc2",
-      "path": "/UiPath/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "使用注意事项",
-          "slug": "使用注意事项"
-        },
-        {
-          "level": 2,
-          "title": "调用c#程序集",
-          "slug": "调用c-程序集"
-        },
-        {
-          "level": 2,
-          "title": "调用python脚本",
-          "slug": "调用python脚本"
-        },
-        {
-          "level": 2,
-          "title": "Excel",
-          "slug": "excel"
-        },
-        {
-          "level": 2,
-          "title": "重试范围",
-          "slug": "重试范围"
-        }
-      ]
-    },
-    {
-      "title": "问题解决",
-      "frontmatter": {},
-      "regularPath": "/Vue/problem.html",
-      "relativePath": "Vue/problem.md",
-      "key": "v-dd3abd9c",
-      "path": "/Vue/problem.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "解决ts内引用vue文件报错问题",
-          "slug": "解决ts内引用vue文件报错问题"
-        },
-        {
-          "level": 2,
-          "title": "启用热更新",
-          "slug": "启用热更新"
-        }
-      ]
-    },
-    {
-      "title": "学习",
-      "frontmatter": {},
-      "regularPath": "/Vue/study.html",
-      "relativePath": "Vue/study.md",
-      "key": "v-05f6071c",
-      "path": "/Vue/study.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "ref和reactive的区别",
-          "slug": "ref和reactive的区别"
-        },
-        {
-          "level": 2,
-          "title": "深拷贝和浅拷贝",
-          "slug": "深拷贝和浅拷贝"
-        },
-        {
-          "level": 2,
-          "title": "v-for",
-          "slug": "v-for"
-        },
-        {
-          "level": 2,
-          "title": "defineProps和defineEmits",
-          "slug": "defineprops和defineemits"
-        },
-        {
-          "level": 2,
-          "title": "事件修饰符",
-          "slug": "事件修饰符"
-        }
-      ]
-    },
-    {
-      "title": "Vue",
-      "frontmatter": {},
-      "regularPath": "/Vue/",
-      "relativePath": "Vue/README.md",
-      "key": "v-e48ea5ca",
-      "path": "/Vue/"
-    },
-    {
-      "title": "element-ui",
-      "frontmatter": {},
-      "regularPath": "/element-ui/",
-      "relativePath": "element-ui/README.md",
-      "key": "v-7500cc1f",
-      "path": "/element-ui/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "element-ui-admin与vxe-table集成开发",
-          "slug": "element-ui-admin与vxe-table集成开发"
-        },
-        {
-          "level": 3,
-          "title": "安装篇",
-          "slug": "安装篇"
-        },
-        {
-          "level": 3,
-          "title": "应用篇",
-          "slug": "应用篇"
-        }
-      ]
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/en/CRM/",
-      "relativePath": "en/CRM/README.md",
-      "key": "v-c0100b9c",
-      "path": "/en/CRM/"
-    },
-    {
-      "title": "CRM后台操作",
-      "frontmatter": {},
-      "regularPath": "/en/CRM/code/houtai.html",
-      "relativePath": "en/CRM/code/houtai.md",
-      "key": "v-48bdc074",
-      "path": "/en/CRM/code/houtai.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "取值和赋值",
-          "slug": "取值和赋值"
-        },
-        {
-          "level": 2,
-          "title": "查询数据",
-          "slug": "查询数据"
-        },
-        {
-          "level": 2,
-          "title": "更新数据",
-          "slug": "更新数据"
-        },
-        {
-          "level": 2,
-          "title": "抛出异常",
-          "slug": "抛出异常"
-        },
-        {
-          "level": 2,
-          "title": "发送邮件",
-          "slug": "发送邮件"
-        }
-      ]
-    },
-    {
       "title": "CRM前端操作",
       "frontmatter": {},
-      "regularPath": "/en/CRM/code/qianduan.html",
-      "relativePath": "en/CRM/code/qianduan.md",
-      "key": "v-738c6b5c",
-      "path": "/en/CRM/code/qianduan.html",
+      "regularPath": "/CRM/code/qianduan.html",
+      "relativePath": "CRM/code/qianduan.md",
+      "key": "v-000fbe42",
+      "path": "/CRM/code/qianduan.html",
       "headers": [
         {
           "level": 2,
@@ -656,30 +185,493 @@ export const siteData = {
       ]
     },
     {
-      "title": "DNS",
+      "title": "EF Core注意事项",
       "frontmatter": {},
-      "regularPath": "/en/DNS/",
-      "relativePath": "en/DNS/README.md",
-      "key": "v-3fef725c",
-      "path": "/en/DNS/"
-    },
-    {
-      "title": "ChatGPT操作方式",
-      "frontmatter": {},
-      "regularPath": "/en/ChatGPT/",
-      "relativePath": "en/ChatGPT/README.md",
-      "key": "v-755083dc",
-      "path": "/en/ChatGPT/",
+      "regularPath": "/EF%20Core/",
+      "relativePath": "EF Core/README.md",
+      "key": "v-84ef7170",
+      "path": "/EF%20Core/",
       "headers": [
         {
           "level": 2,
-          "title": "生成图片",
-          "slug": "生成图片"
+          "title": "生成语句",
+          "slug": "生成语句"
         },
         {
           "level": 2,
-          "title": "插件",
-          "slug": "插件"
+          "title": "注解",
+          "slug": "注解"
+        },
+        {
+          "level": 2,
+          "title": "外键（ForeignKey）",
+          "slug": "外键（foreignkey）"
+        }
+      ]
+    },
+    {
+      "title": "DNS",
+      "frontmatter": {},
+      "regularPath": "/DNS/",
+      "relativePath": "DNS/README.md",
+      "key": "v-d568d056",
+      "path": "/DNS/"
+    },
+    {
+      "title": "MySql语句",
+      "frontmatter": {},
+      "regularPath": "/MySql/",
+      "relativePath": "MySql/README.md",
+      "key": "v-aad67eba",
+      "path": "/MySql/"
+    },
+    {
+      "title": "Nlog",
+      "frontmatter": {},
+      "regularPath": "/NLog/",
+      "relativePath": "NLog/README.md",
+      "key": "v-432e7aff",
+      "path": "/NLog/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "日志级别",
+          "slug": "日志级别"
+        },
+        {
+          "level": 2,
+          "title": "代码实现",
+          "slug": "代码实现"
+        },
+        {
+          "level": 2,
+          "title": "配置文件信息",
+          "slug": "配置文件信息"
+        },
+        {
+          "level": 2,
+          "title": "NLog等级使用",
+          "slug": "nlog等级使用"
+        },
+        {
+          "level": 2,
+          "title": "邮箱配置",
+          "slug": "邮箱配置"
+        },
+        {
+          "level": 2,
+          "title": "数据库配置",
+          "slug": "数据库配置"
+        }
+      ]
+    },
+    {
+      "title": "Python",
+      "frontmatter": {},
+      "regularPath": "/Python/",
+      "relativePath": "Python/README.md",
+      "key": "v-12a9bfbf",
+      "path": "/Python/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Python 缩进",
+          "slug": "python-缩进"
+        },
+        {
+          "level": 2,
+          "title": "变量",
+          "slug": "变量"
+        },
+        {
+          "level": 2,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 2,
+          "title": "pass",
+          "slug": "pass"
+        },
+        {
+          "level": 2,
+          "title": "File",
+          "slug": "file"
+        },
+        {
+          "level": 2,
+          "title": "Anaconda",
+          "slug": "anaconda"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/Typroa/flow-chart.html",
+      "relativePath": "Typroa/flow-chart.md",
+      "key": "v-d5633868",
+      "path": "/Typroa/flow-chart.html"
+    },
+    {
+      "title": "TypeScript",
+      "frontmatter": {},
+      "regularPath": "/TypeScript/",
+      "relativePath": "TypeScript/README.md",
+      "key": "v-32dc97c2",
+      "path": "/TypeScript/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "prototype属性",
+          "slug": "prototype属性"
+        },
+        {
+          "level": 2,
+          "title": "some",
+          "slug": "some"
+        },
+        {
+          "level": 2,
+          "title": "every",
+          "slug": "every"
+        },
+        {
+          "level": 2,
+          "title": "map",
+          "slug": "map"
+        },
+        {
+          "level": 2,
+          "title": "lastIndexOf",
+          "slug": "lastindexof"
+        },
+        {
+          "level": 2,
+          "title": "数组迭代",
+          "slug": "数组迭代"
+        },
+        {
+          "level": 2,
+          "title": "interface接口",
+          "slug": "interface接口"
+        },
+        {
+          "level": 2,
+          "title": "implements实现",
+          "slug": "implements实现"
+        },
+        {
+          "level": 2,
+          "title": "static 关键字",
+          "slug": "static-关键字"
+        },
+        {
+          "level": 2,
+          "title": "instanceof 运算符",
+          "slug": "instanceof-运算符"
+        },
+        {
+          "level": 2,
+          "title": "访问控制修饰符",
+          "slug": "访问控制修饰符"
+        },
+        {
+          "level": 2,
+          "title": "对象",
+          "slug": "对象"
+        },
+        {
+          "level": 2,
+          "title": "export",
+          "slug": "export"
+        },
+        {
+          "level": 2,
+          "title": "import",
+          "slug": "import"
+        },
+        {
+          "level": 2,
+          "title": "声明文件",
+          "slug": "声明文件"
+        }
+      ]
+    },
+    {
+      "title": "Vue",
+      "frontmatter": {},
+      "regularPath": "/Vue/",
+      "relativePath": "Vue/README.md",
+      "key": "v-e48ea5ca",
+      "path": "/Vue/"
+    },
+    {
+      "title": "UiPath",
+      "frontmatter": {},
+      "regularPath": "/UiPath/",
+      "relativePath": "UiPath/README.md",
+      "key": "v-900dcbc2",
+      "path": "/UiPath/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用注意事项",
+          "slug": "使用注意事项"
+        },
+        {
+          "level": 2,
+          "title": "调用c#程序集",
+          "slug": "调用c-程序集"
+        },
+        {
+          "level": 2,
+          "title": "调用python脚本",
+          "slug": "调用python脚本"
+        },
+        {
+          "level": 2,
+          "title": "Excel",
+          "slug": "excel"
+        },
+        {
+          "level": 2,
+          "title": "重试范围",
+          "slug": "重试范围"
+        }
+      ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "images/hero.png",
+        "features": [
+          {
+            "title": "国际化",
+            "details": "内建业界通用的国际化方案"
+          },
+          {
+            "title": "主题",
+            "details": "支持多种动态换肤功能"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2023"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5c096c5c",
+      "path": "/"
+    },
+    {
+      "title": "问题解决",
+      "frontmatter": {},
+      "regularPath": "/Vue/problem.html",
+      "relativePath": "Vue/problem.md",
+      "key": "v-dd3abd9c",
+      "path": "/Vue/problem.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "解决ts内引用vue文件报错问题",
+          "slug": "解决ts内引用vue文件报错问题"
+        },
+        {
+          "level": 2,
+          "title": "启用热更新",
+          "slug": "启用热更新"
+        }
+      ]
+    },
+    {
+      "title": "学习",
+      "frontmatter": {},
+      "regularPath": "/Vue/study.html",
+      "relativePath": "Vue/study.md",
+      "key": "v-05f6071c",
+      "path": "/Vue/study.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "ref和reactive的区别",
+          "slug": "ref和reactive的区别"
+        },
+        {
+          "level": 2,
+          "title": "深拷贝和浅拷贝",
+          "slug": "深拷贝和浅拷贝"
+        },
+        {
+          "level": 2,
+          "title": "v-for",
+          "slug": "v-for"
+        },
+        {
+          "level": 2,
+          "title": "defineProps和defineEmits",
+          "slug": "defineprops和defineemits"
+        },
+        {
+          "level": 2,
+          "title": "事件修饰符",
+          "slug": "事件修饰符"
+        }
+      ]
+    },
+    {
+      "title": "element-ui",
+      "frontmatter": {},
+      "regularPath": "/element-ui/",
+      "relativePath": "element-ui/README.md",
+      "key": "v-7500cc1f",
+      "path": "/element-ui/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "element-ui-admin与vxe-table集成开发",
+          "slug": "element-ui-admin与vxe-table集成开发"
+        },
+        {
+          "level": 3,
+          "title": "安装篇",
+          "slug": "安装篇"
+        },
+        {
+          "level": 3,
+          "title": "应用篇",
+          "slug": "应用篇"
+        }
+      ]
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/en/CRM/",
+      "relativePath": "en/CRM/README.md",
+      "key": "v-c0100b9c",
+      "path": "/en/CRM/"
+    },
+    {
+      "title": "CRM后台操作",
+      "frontmatter": {},
+      "regularPath": "/en/CRM/code/houtai.html",
+      "relativePath": "en/CRM/code/houtai.md",
+      "key": "v-48bdc074",
+      "path": "/en/CRM/code/houtai.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "取值和赋值",
+          "slug": "取值和赋值"
+        },
+        {
+          "level": 2,
+          "title": "查询数据",
+          "slug": "查询数据"
+        },
+        {
+          "level": 2,
+          "title": "更新数据",
+          "slug": "更新数据"
+        },
+        {
+          "level": 2,
+          "title": "抛出异常",
+          "slug": "抛出异常"
+        },
+        {
+          "level": 2,
+          "title": "发送邮件",
+          "slug": "发送邮件"
+        }
+      ]
+    },
+    {
+      "title": "使用",
+      "frontmatter": {},
+      "regularPath": "/en/CRM/plug-in/PluginRegistration.html",
+      "relativePath": "en/CRM/plug-in/PluginRegistration.md",
+      "key": "v-3718ac06",
+      "path": "/en/CRM/plug-in/PluginRegistration.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "注册",
+          "slug": "注册"
+        },
+        {
+          "level": 2,
+          "title": "调试",
+          "slug": "调试"
+        }
+      ]
+    },
+    {
+      "title": "CRM前端操作",
+      "frontmatter": {},
+      "regularPath": "/en/CRM/code/qianduan.html",
+      "relativePath": "en/CRM/code/qianduan.md",
+      "key": "v-738c6b5c",
+      "path": "/en/CRM/code/qianduan.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "取值",
+          "slug": "取值"
+        },
+        {
+          "level": 2,
+          "title": "赋值",
+          "slug": "赋值"
+        },
+        {
+          "level": 2,
+          "title": "错误提示",
+          "slug": "错误提示"
+        },
+        {
+          "level": 2,
+          "title": "字段操作",
+          "slug": "字段操作"
+        },
+        {
+          "level": 2,
+          "title": "Tab操作",
+          "slug": "tab操作"
+        },
+        {
+          "level": 2,
+          "title": "表单操作",
+          "slug": "表单操作"
+        },
+        {
+          "level": 2,
+          "title": "数据操作",
+          "slug": "数据操作"
+        },
+        {
+          "level": 2,
+          "title": "打开实体表单或创建表单",
+          "slug": "打开实体表单或创建表单"
+        },
+        {
+          "level": 2,
+          "title": "打开确认对话框",
+          "slug": "打开确认对话框"
+        },
+        {
+          "level": 2,
+          "title": "子网格操作",
+          "slug": "子网格操作"
+        },
+        {
+          "level": 2,
+          "title": "打开查找控件",
+          "slug": "打开查找控件"
+        },
+        {
+          "level": 2,
+          "title": "使用接口",
+          "slug": "使用接口"
         }
       ]
     },
@@ -734,6 +726,42 @@ export const siteData = {
       ]
     },
     {
+      "title": "ChatGPT操作方式",
+      "frontmatter": {},
+      "regularPath": "/en/ChatGPT/",
+      "relativePath": "en/ChatGPT/README.md",
+      "key": "v-755083dc",
+      "path": "/en/ChatGPT/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "生成图片",
+          "slug": "生成图片"
+        },
+        {
+          "level": 2,
+          "title": "插件",
+          "slug": "插件"
+        }
+      ]
+    },
+    {
+      "title": "DNS",
+      "frontmatter": {},
+      "regularPath": "/en/DNS/",
+      "relativePath": "en/DNS/README.md",
+      "key": "v-3fef725c",
+      "path": "/en/DNS/"
+    },
+    {
+      "title": "MySql语句",
+      "frontmatter": {},
+      "regularPath": "/en/MySql/",
+      "relativePath": "en/MySql/README.md",
+      "key": "v-979bbf9c",
+      "path": "/en/MySql/"
+    },
+    {
       "title": "Nlog",
       "frontmatter": {},
       "regularPath": "/en/NLog/",
@@ -774,14 +802,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "MySql语句",
-      "frontmatter": {},
-      "regularPath": "/en/MySql/",
-      "relativePath": "en/MySql/README.md",
-      "key": "v-979bbf9c",
-      "path": "/en/MySql/"
-    },
-    {
       "title": "Python",
       "frontmatter": {},
       "regularPath": "/en/Python/",
@@ -820,6 +840,28 @@ export const siteData = {
           "slug": "anaconda"
         }
       ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "../images/hero.png",
+        "features": [
+          {
+            "title": "Globalization",
+            "details": "Built-in industry universal international solution"
+          },
+          {
+            "title": "Theming",
+            "details": "Supports multiple dynamic skin methods"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2023"
+      },
+      "regularPath": "/en/",
+      "relativePath": "en/README.md",
+      "key": "v-6f9b5a9f",
+      "path": "/en/"
     },
     {
       "title": "TypeScript",
@@ -907,28 +949,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "../images/hero.png",
-        "features": [
-          {
-            "title": "Globalization",
-            "details": "Built-in industry universal international solution"
-          },
-          {
-            "title": "Theming",
-            "details": "Supports multiple dynamic skin methods"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2023"
-      },
-      "regularPath": "/en/",
-      "relativePath": "en/README.md",
-      "key": "v-6f9b5a9f",
-      "path": "/en/"
-    },
-    {
       "frontmatter": {},
       "regularPath": "/en/Typroa/flow-chart.html",
       "relativePath": "en/Typroa/flow-chart.md",
@@ -971,24 +991,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "使用",
+      "title": "Vue",
       "frontmatter": {},
-      "regularPath": "/en/CRM/plug-in/PluginRegistration.html",
-      "relativePath": "en/CRM/plug-in/PluginRegistration.md",
-      "key": "v-3718ac06",
-      "path": "/en/CRM/plug-in/PluginRegistration.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "注册",
-          "slug": "注册"
-        },
-        {
-          "level": 2,
-          "title": "调试",
-          "slug": "调试"
-        }
-      ]
+      "regularPath": "/en/Vue/",
+      "relativePath": "en/Vue/README.md",
+      "key": "v-fb16559c",
+      "path": "/en/Vue/"
     },
     {
       "title": "问题解决",
@@ -1046,14 +1054,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Vue",
-      "frontmatter": {},
-      "regularPath": "/en/Vue/",
-      "relativePath": "en/Vue/README.md",
-      "key": "v-fb16559c",
-      "path": "/en/Vue/"
-    },
-    {
       "title": "element-ui",
       "frontmatter": {},
       "regularPath": "/en/element-ui/",
@@ -1080,17 +1080,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/avatar-upload.html",
-      "relativePath": "en/features/components/avatar-upload.md",
-      "key": "v-efcfff30",
-      "path": "/en/features/components/avatar-upload.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/components/back-to-top.html",
       "relativePath": "en/features/components/back-to-top.md",
       "key": "v-4d70db80",
       "path": "/en/features/components/back-to-top.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/avatar-upload.html",
+      "relativePath": "en/features/components/avatar-upload.md",
+      "key": "v-efcfff30",
+      "path": "/en/features/components/avatar-upload.html"
     },
     {
       "frontmatter": {},
@@ -1105,6 +1105,13 @@ export const siteData = {
       "relativePath": "en/features/components/charts.md",
       "key": "v-65bd880c",
       "path": "/en/features/components/charts.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/draggable-kanban.html",
+      "relativePath": "en/features/components/draggable-kanban.md",
+      "key": "v-41ac4868",
+      "path": "/en/features/components/draggable-kanban.html"
     },
     {
       "frontmatter": {},
@@ -1150,13 +1157,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-kanban.html",
-      "relativePath": "en/features/components/draggable-kanban.md",
-      "key": "v-41ac4868",
-      "path": "/en/features/components/draggable-kanban.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/components/hamburger.html",
       "relativePath": "en/features/components/hamburger.md",
       "key": "v-1ad94240",
@@ -1171,17 +1171,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/lang-select.html",
-      "relativePath": "en/features/components/lang-select.md",
-      "key": "v-6f82195c",
-      "path": "/en/features/components/lang-select.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/components/json-editor.html",
       "relativePath": "en/features/components/json-editor.md",
       "key": "v-3c8a0224",
       "path": "/en/features/components/json-editor.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/lang-select.html",
+      "relativePath": "en/features/components/lang-select.md",
+      "key": "v-6f82195c",
+      "path": "/en/features/components/lang-select.html"
     },
     {
       "frontmatter": {},
@@ -1199,10 +1199,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/material-input.html",
+      "relativePath": "en/features/components/material-input.md",
+      "key": "v-02b0f12c",
+      "path": "/en/features/components/material-input.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/pan-thumb.html",
       "relativePath": "en/features/components/pan-thumb.md",
       "key": "v-31d85074",
       "path": "/en/features/components/pan-thumb.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/rich-editor.html",
+      "relativePath": "en/features/components/rich-editor.md",
+      "key": "v-61317854",
+      "path": "/en/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -1213,10 +1227,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/material-input.html",
-      "relativePath": "en/features/components/material-input.md",
-      "key": "v-02b0f12c",
-      "path": "/en/features/components/material-input.html"
+      "regularPath": "/en/features/components/screenfull.html",
+      "relativePath": "en/features/components/screenfull.md",
+      "key": "v-64bba14c",
+      "path": "/en/features/components/screenfull.html"
     },
     {
       "frontmatter": {},
@@ -1234,10 +1248,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/screenfull.html",
-      "relativePath": "en/features/components/screenfull.md",
-      "key": "v-64bba14c",
-      "path": "/en/features/components/screenfull.html"
+      "regularPath": "/en/features/components/text-hover-effect.html",
+      "relativePath": "en/features/components/text-hover-effect.md",
+      "key": "v-1bd70d4e",
+      "path": "/en/features/components/text-hover-effect.html"
     },
     {
       "frontmatter": {},
@@ -1245,13 +1259,6 @@ export const siteData = {
       "relativePath": "en/features/components/theme-picker.md",
       "key": "v-cd8e8fa8",
       "path": "/en/features/components/theme-picker.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/text-hover-effect.html",
-      "relativePath": "en/features/components/text-hover-effect.md",
-      "key": "v-1bd70d4e",
-      "path": "/en/features/components/text-hover-effect.html"
     },
     {
       "frontmatter": {},
@@ -1297,32 +1304,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/rich-editor.html",
-      "relativePath": "en/features/components/rich-editor.md",
-      "key": "v-61317854",
-      "path": "/en/features/components/rich-editor.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/icons/svg-icons.html",
       "relativePath": "en/features/icons/svg-icons.md",
       "key": "v-41e20f12",
       "path": "/en/features/icons/svg-icons.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/pwa/service-worker-update-popup.html",
-      "relativePath": "en/features/pwa/service-worker-update-popup.md",
-      "key": "v-6aa04812",
-      "path": "/en/features/pwa/service-worker-update-popup.html"
-    },
-    {
-      "title": "Nginx",
-      "frontmatter": {},
-      "regularPath": "/en/nginx/",
-      "relativePath": "en/nginx/README.md",
-      "key": "v-bcec899c",
-      "path": "/en/nginx/"
     },
     {
       "title": "详细配置",
@@ -1338,6 +1323,14 @@ export const siteData = {
           "slug": "详细配置"
         }
       ]
+    },
+    {
+      "title": "Nginx",
+      "frontmatter": {},
+      "regularPath": "/en/nginx/",
+      "relativePath": "en/nginx/README.md",
+      "key": "v-bcec899c",
+      "path": "/en/nginx/"
     },
     {
       "title": "命令",
@@ -1435,6 +1428,14 @@ export const siteData = {
       ]
     },
     {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/en/powerplatform/",
+      "relativePath": "en/powerplatform/README.md",
+      "key": "v-05c40ff2",
+      "path": "/en/powerplatform/"
+    },
+    {
       "title": "界面操作",
       "frontmatter": {},
       "regularPath": "/en/powerplatform/powerapps/view.html",
@@ -1455,28 +1456,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/features/components/avatar-upload.html",
-      "relativePath": "features/components/avatar-upload.md",
-      "key": "v-36ef92c2",
-      "path": "/features/components/avatar-upload.html"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/en/powerplatform/",
-      "relativePath": "en/powerplatform/README.md",
-      "key": "v-05c40ff2",
-      "path": "/en/powerplatform/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/back-to-top.html",
-      "relativePath": "features/components/back-to-top.md",
-      "key": "v-091201c2",
-      "path": "/features/components/back-to-top.html"
-    },
-    {
       "title": "Power Automate",
       "frontmatter": {},
       "regularPath": "/en/powerplatform/powerautomate/view.html",
@@ -1493,10 +1472,45 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/avatar-upload.html",
+      "relativePath": "features/components/avatar-upload.md",
+      "key": "v-36ef92c2",
+      "path": "/features/components/avatar-upload.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/pwa/service-worker-update-popup.html",
+      "relativePath": "en/features/pwa/service-worker-update-popup.md",
+      "key": "v-6aa04812",
+      "path": "/en/features/pwa/service-worker-update-popup.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/back-to-top.html",
+      "relativePath": "features/components/back-to-top.md",
+      "key": "v-091201c2",
+      "path": "/features/components/back-to-top.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/breadcrumb.html",
       "relativePath": "features/components/breadcrumb.md",
       "key": "v-398a20f7",
       "path": "/features/components/breadcrumb.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/draggable-list.html",
+      "relativePath": "features/components/draggable-list.md",
+      "key": "v-70a27241",
+      "path": "/features/components/draggable-list.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/charts.html",
+      "relativePath": "features/components/charts.md",
+      "key": "v-7bb6b55a",
+      "path": "/features/components/charts.html"
     },
     {
       "frontmatter": {},
@@ -1514,13 +1528,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/charts.html",
-      "relativePath": "features/components/charts.md",
-      "key": "v-7bb6b55a",
-      "path": "/features/components/charts.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/draggable-select.html",
       "relativePath": "features/components/draggable-select.md",
       "key": "v-07929a45",
@@ -1528,10 +1535,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/draggable-list.html",
-      "relativePath": "features/components/draggable-list.md",
-      "key": "v-70a27241",
-      "path": "/features/components/draggable-list.html"
+      "regularPath": "/features/components/dropzone.html",
+      "relativePath": "features/components/dropzone.md",
+      "key": "v-ee919372",
+      "path": "/features/components/dropzone.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/error-log.html",
+      "relativePath": "features/components/error-log.md",
+      "key": "v-183e8d5f",
+      "path": "/features/components/error-log.html"
     },
     {
       "frontmatter": {},
@@ -1549,24 +1563,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/dropzone.html",
-      "relativePath": "features/components/dropzone.md",
-      "key": "v-ee919372",
-      "path": "/features/components/dropzone.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/header-search.html",
       "relativePath": "features/components/header-search.md",
       "key": "v-7c4616bf",
       "path": "/features/components/header-search.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/error-log.html",
-      "relativePath": "features/components/error-log.md",
-      "key": "v-183e8d5f",
-      "path": "/features/components/error-log.html"
     },
     {
       "frontmatter": {},
@@ -1584,6 +1584,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/components/markdown-editor.html",
+      "relativePath": "features/components/markdown-editor.md",
+      "key": "v-0489ef5f",
+      "path": "/features/components/markdown-editor.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/components/material-input.html",
       "relativePath": "features/components/material-input.md",
       "key": "v-1c2fd8b5",
@@ -1591,10 +1598,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/markdown-editor.html",
-      "relativePath": "features/components/markdown-editor.md",
-      "key": "v-0489ef5f",
-      "path": "/features/components/markdown-editor.html"
+      "regularPath": "/features/components/pagination.html",
+      "relativePath": "features/components/pagination.md",
+      "key": "v-24c5276e",
+      "path": "/features/components/pagination.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/pan-thumb.html",
+      "relativePath": "features/components/pan-thumb.md",
+      "key": "v-bb572f02",
+      "path": "/features/components/pan-thumb.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/rich-editor.html",
+      "relativePath": "features/components/rich-editor.md",
+      "key": "v-012b033f",
+      "path": "/features/components/rich-editor.html"
     },
     {
       "frontmatter": {},
@@ -1612,10 +1633,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/pagination.html",
-      "relativePath": "features/components/pagination.md",
-      "key": "v-24c5276e",
-      "path": "/features/components/pagination.html"
+      "regularPath": "/features/components/size-select.html",
+      "relativePath": "features/components/size-select.md",
+      "key": "v-e16a4102",
+      "path": "/features/components/size-select.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/text-hover-effect.html",
+      "relativePath": "features/components/text-hover-effect.md",
+      "key": "v-655813ff",
+      "path": "/features/components/text-hover-effect.html"
     },
     {
       "frontmatter": {},
@@ -1623,20 +1651,6 @@ export const siteData = {
       "relativePath": "features/components/sticky.md",
       "key": "v-8bb143aa",
       "path": "/features/components/sticky.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/pan-thumb.html",
-      "relativePath": "features/components/pan-thumb.md",
-      "key": "v-bb572f02",
-      "path": "/features/components/pan-thumb.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/size-select.html",
-      "relativePath": "features/components/size-select.md",
-      "key": "v-e16a4102",
-      "path": "/features/components/size-select.html"
     },
     {
       "frontmatter": {},
@@ -1661,10 +1675,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/rich-editor.html",
-      "relativePath": "features/components/rich-editor.md",
-      "key": "v-012b033f",
-      "path": "/features/components/rich-editor.html"
+      "regularPath": "/features/directives/clipboard.html",
+      "relativePath": "features/directives/clipboard.md",
+      "key": "v-59e20682",
+      "path": "/features/directives/clipboard.html"
     },
     {
       "frontmatter": {},
@@ -1675,6 +1689,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/directives/waves.html",
+      "relativePath": "features/directives/waves.md",
+      "key": "v-2eae9482",
+      "path": "/features/directives/waves.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/directives/permission.html",
       "relativePath": "features/directives/permission.md",
       "key": "v-21b091bb",
@@ -1682,10 +1703,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/directives/clipboard.html",
-      "relativePath": "features/directives/clipboard.md",
-      "key": "v-59e20682",
-      "path": "/features/directives/clipboard.html"
+      "regularPath": "/features/pwa/service-worker-update-popup.html",
+      "relativePath": "features/pwa/service-worker-update-popup.md",
+      "key": "v-710eb1d6",
+      "path": "/features/pwa/service-worker-update-popup.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/icons/svg-icons.html",
+      "relativePath": "features/icons/svg-icons.md",
+      "key": "v-e07b969e",
+      "path": "/features/icons/svg-icons.html"
     },
     {
       "title": "Nginx",
@@ -1694,21 +1722,6 @@ export const siteData = {
       "relativePath": "nginx/README.md",
       "key": "v-0c2ca833",
       "path": "/nginx/"
-    },
-    {
-      "title": "详细配置",
-      "frontmatter": {},
-      "regularPath": "/nginx/configuration.html",
-      "relativePath": "nginx/configuration.md",
-      "key": "v-67ee475c",
-      "path": "/nginx/configuration.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "详细配置",
-          "slug": "详细配置"
-        }
-      ]
     },
     {
       "title": "命令",
@@ -1746,6 +1759,21 @@ export const siteData = {
       ]
     },
     {
+      "title": "详细配置",
+      "frontmatter": {},
+      "regularPath": "/nginx/configuration.html",
+      "relativePath": "nginx/configuration.md",
+      "key": "v-67ee475c",
+      "path": "/nginx/configuration.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "详细配置",
+          "slug": "详细配置"
+        }
+      ]
+    },
+    {
       "title": "npm",
       "frontmatter": {},
       "regularPath": "/npm/",
@@ -1777,27 +1805,6 @@ export const siteData = {
       "relativePath": "powerplatform/README.md",
       "key": "v-1b11f412",
       "path": "/powerplatform/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/text-hover-effect.html",
-      "relativePath": "features/components/text-hover-effect.md",
-      "key": "v-655813ff",
-      "path": "/features/components/text-hover-effect.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/icons/svg-icons.html",
-      "relativePath": "features/icons/svg-icons.md",
-      "key": "v-e07b969e",
-      "path": "/features/icons/svg-icons.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/directives/waves.html",
-      "relativePath": "features/directives/waves.md",
-      "key": "v-2eae9482",
-      "path": "/features/directives/waves.html"
     },
     {
       "title": "界面操作",
@@ -1853,13 +1860,6 @@ export const siteData = {
           "slug": "controlmanifest-input-xml-注解"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/pwa/service-worker-update-popup.html",
-      "relativePath": "features/pwa/service-worker-update-popup.md",
-      "key": "v-710eb1d6",
-      "path": "/features/pwa/service-worker-update-popup.html"
     },
     {
       "title": "Power Automate",
