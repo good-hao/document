@@ -5,7 +5,7 @@ npm cache clean --force //清除缓存
 
 npm config get registry  // 查看npm当前镜像源
 
-npm config set registry https://registry.npm.taobao.org/  // 设置npm镜像源为淘宝镜像
+npm config set registry https://registry.npm.taobao.org/  // 设置npm镜像源
 ```
 
 
@@ -21,7 +21,7 @@ yarn cache clean //清除缓存
 
 yarn config get registry  // 查看yarn当前镜像源
 
-yarn config set registry https://registry.npm.taobao.org/  // 设置yarn镜像源为淘宝镜像
+yarn config set registry https://registry.npm.taobao.org/  // 设置yarn镜像源
 ```
 
 
@@ -32,6 +32,8 @@ yarn config set registry https://registry.npm.taobao.org/  // 设置yarn镜像�
 
 ```text
 npm install pnpm -g //全局安装
+
+pnpm store prune //移除所有不再被使用的包
 
 pnpm config get registry //查看源
 
@@ -55,7 +57,7 @@ pnpm upgrade 包  //更新包
 
 pnpm upgrade 包 --global  //更新全局包
 
-pnpm config set registry https://registry.npmmirror.com/ //切换淘宝源
+pnpm config set registry https://registry.npmmirror.com/ //设置pnpm镜像源
 
 ```
 

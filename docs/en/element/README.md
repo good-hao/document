@@ -1,4 +1,4 @@
-# element-ui
+# element
 
 ## element-ui-admin与vxe-table集成开发
 
@@ -96,7 +96,7 @@ export default {
 }
 ```
 
-#### 解决 el-card 与 vxe-table同时使用，可能会出现双线问题。
+### 解决 el-card 与 vxe-table同时使用，可能会出现双线问题。
 
 ```
 <el-row>

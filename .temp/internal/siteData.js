@@ -5,6 +5,15 @@ export const siteData = {
   "title": "文档",
   "description": "文档描述",
   "base": "/",
+  "headTags": [
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "/icons/favicon.ico"
+      }
+    ]
+  ],
   "pages": [
     {
       "title": "介绍",
@@ -13,41 +22,6 @@ export const siteData = {
       "relativePath": "CRM/README.md",
       "key": "v-6c14d72a",
       "path": "/CRM/"
-    },
-    {
-      "title": "CRM后台操作",
-      "frontmatter": {},
-      "regularPath": "/CRM/code/houtai.html",
-      "relativePath": "CRM/code/houtai.md",
-      "key": "v-47188782",
-      "path": "/CRM/code/houtai.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "取值和赋值",
-          "slug": "取值和赋值"
-        },
-        {
-          "level": 2,
-          "title": "查询数据",
-          "slug": "查询数据"
-        },
-        {
-          "level": 2,
-          "title": "更新数据",
-          "slug": "更新数据"
-        },
-        {
-          "level": 2,
-          "title": "抛出异常",
-          "slug": "抛出异常"
-        },
-        {
-          "level": 2,
-          "title": "发送邮件",
-          "slug": "发送邮件"
-        }
-      ]
     },
     {
       "title": "使用",
@@ -66,26 +40,6 @@ export const siteData = {
           "level": 2,
           "title": "调试",
           "slug": "调试"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT操作方式",
-      "frontmatter": {},
-      "regularPath": "/ChatGPT/",
-      "relativePath": "ChatGPT/README.md",
-      "key": "v-e406f57e",
-      "path": "/ChatGPT/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "生成图片",
-          "slug": "生成图片"
-        },
-        {
-          "level": 2,
-          "title": "插件",
-          "slug": "插件"
         }
       ]
     },
@@ -185,6 +139,61 @@ export const siteData = {
       ]
     },
     {
+      "title": "CRM后台操作",
+      "frontmatter": {},
+      "regularPath": "/CRM/code/houtai.html",
+      "relativePath": "CRM/code/houtai.md",
+      "key": "v-47188782",
+      "path": "/CRM/code/houtai.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "取值和赋值",
+          "slug": "取值和赋值"
+        },
+        {
+          "level": 2,
+          "title": "查询数据",
+          "slug": "查询数据"
+        },
+        {
+          "level": 2,
+          "title": "更新数据",
+          "slug": "更新数据"
+        },
+        {
+          "level": 2,
+          "title": "抛出异常",
+          "slug": "抛出异常"
+        },
+        {
+          "level": 2,
+          "title": "发送邮件",
+          "slug": "发送邮件"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT操作方式",
+      "frontmatter": {},
+      "regularPath": "/ChatGPT/",
+      "relativePath": "ChatGPT/README.md",
+      "key": "v-e406f57e",
+      "path": "/ChatGPT/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "生成图片",
+          "slug": "生成图片"
+        },
+        {
+          "level": 2,
+          "title": "插件",
+          "slug": "插件"
+        }
+      ]
+    },
+    {
       "title": "EF Core注意事项",
       "frontmatter": {},
       "regularPath": "/EF%20Core/",
@@ -205,7 +214,97 @@ export const siteData = {
         {
           "level": 2,
           "title": "外键（ForeignKey）",
-          "slug": "外键（foreignkey）"
+          "slug": "外键-foreignkey"
+        }
+      ]
+    },
+    {
+      "title": "解决方式",
+      "frontmatter": {},
+      "regularPath": "/Linux/ubuntu.html",
+      "relativePath": "Linux/ubuntu.md",
+      "key": "v-3cee811a",
+      "path": "/Linux/ubuntu.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式"
+        },
+        {
+          "level": 3,
+          "title": "界面化",
+          "slug": "界面化"
+        },
+        {
+          "level": 3,
+          "title": "解压",
+          "slug": "解压"
+        },
+        {
+          "level": 3,
+          "title": "出现initramfs",
+          "slug": "出现initramfs"
+        },
+        {
+          "level": 3,
+          "title": "出现E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.",
+          "slug": "出现e-dpkg-was-interrupted-you-must-manually-run-dpkg-configure-a-to-correct-the-problem"
+        },
+        {
+          "level": 3,
+          "title": "删除语法",
+          "slug": "删除语法"
+        },
+        {
+          "level": 3,
+          "title": "解决system program problem detected",
+          "slug": "解决system-program-problem-detected"
+        }
+      ]
+    },
+    {
+      "title": "安装源",
+      "frontmatter": {},
+      "regularPath": "/Linux/centos.html",
+      "relativePath": "Linux/centos.md",
+      "key": "v-807bf7e0",
+      "path": "/Linux/centos.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "安装源",
+          "slug": "安装源"
+        },
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式"
+        },
+        {
+          "level": 3,
+          "title": "安装必要的解压工具",
+          "slug": "安装必要的解压工具"
+        },
+        {
+          "level": 3,
+          "title": "安装tar.xz文件",
+          "slug": "安装tar-xz文件"
+        },
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式-2"
+        },
+        {
+          "level": 3,
+          "title": "图形化",
+          "slug": "图形化"
+        },
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式-3"
         }
       ]
     },
@@ -224,6 +323,28 @@ export const siteData = {
       "relativePath": "MySql/README.md",
       "key": "v-aad67eba",
       "path": "/MySql/"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "images/hero.png",
+        "features": [
+          {
+            "title": "国际化",
+            "details": "内建业界通用的国际化方案"
+          },
+          {
+            "title": "主题",
+            "details": "支持多种动态换肤功能"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2023"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5c096c5c",
+      "path": "/"
     },
     {
       "title": "Nlog",
@@ -262,46 +383,6 @@ export const siteData = {
           "level": 2,
           "title": "数据库配置",
           "slug": "数据库配置"
-        }
-      ]
-    },
-    {
-      "title": "Python",
-      "frontmatter": {},
-      "regularPath": "/Python/",
-      "relativePath": "Python/README.md",
-      "key": "v-12a9bfbf",
-      "path": "/Python/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Python 缩进",
-          "slug": "python-缩进"
-        },
-        {
-          "level": 2,
-          "title": "变量",
-          "slug": "变量"
-        },
-        {
-          "level": 2,
-          "title": "数据类型",
-          "slug": "数据类型"
-        },
-        {
-          "level": 2,
-          "title": "pass",
-          "slug": "pass"
-        },
-        {
-          "level": 2,
-          "title": "File",
-          "slug": "file"
-        },
-        {
-          "level": 2,
-          "title": "Anaconda",
-          "slug": "anaconda"
         }
       ]
     },
@@ -398,89 +479,52 @@ export const siteData = {
       ]
     },
     {
+      "title": "Python",
+      "frontmatter": {},
+      "regularPath": "/Python/",
+      "relativePath": "Python/README.md",
+      "key": "v-12a9bfbf",
+      "path": "/Python/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Python 缩进",
+          "slug": "python-缩进"
+        },
+        {
+          "level": 2,
+          "title": "变量",
+          "slug": "变量"
+        },
+        {
+          "level": 2,
+          "title": "数据类型",
+          "slug": "数据类型"
+        },
+        {
+          "level": 2,
+          "title": "pass",
+          "slug": "pass"
+        },
+        {
+          "level": 2,
+          "title": "File",
+          "slug": "file"
+        },
+        {
+          "level": 2,
+          "title": "Anaconda",
+          "slug": "anaconda"
+        }
+      ]
+    },
+    {
       "title": "Vue",
       "frontmatter": {},
       "regularPath": "/Vue/",
       "relativePath": "Vue/README.md",
       "key": "v-e48ea5ca",
       "path": "/Vue/"
-    },
-    {
-      "title": "UiPath",
-      "frontmatter": {},
-      "regularPath": "/UiPath/",
-      "relativePath": "UiPath/README.md",
-      "key": "v-900dcbc2",
-      "path": "/UiPath/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "使用注意事项",
-          "slug": "使用注意事项"
-        },
-        {
-          "level": 2,
-          "title": "调用c#程序集",
-          "slug": "调用c-程序集"
-        },
-        {
-          "level": 2,
-          "title": "调用python脚本",
-          "slug": "调用python脚本"
-        },
-        {
-          "level": 2,
-          "title": "Excel",
-          "slug": "excel"
-        },
-        {
-          "level": 2,
-          "title": "重试范围",
-          "slug": "重试范围"
-        }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "images/hero.png",
-        "features": [
-          {
-            "title": "国际化",
-            "details": "内建业界通用的国际化方案"
-          },
-          {
-            "title": "主题",
-            "details": "支持多种动态换肤功能"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2023"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5c096c5c",
-      "path": "/"
-    },
-    {
-      "title": "问题解决",
-      "frontmatter": {},
-      "regularPath": "/Vue/problem.html",
-      "relativePath": "Vue/problem.md",
-      "key": "v-dd3abd9c",
-      "path": "/Vue/problem.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "解决ts内引用vue文件报错问题",
-          "slug": "解决ts内引用vue文件报错问题"
-        },
-        {
-          "level": 2,
-          "title": "启用热更新",
-          "slug": "启用热更新"
-        }
-      ]
     },
     {
       "title": "学习",
@@ -518,12 +562,75 @@ export const siteData = {
       ]
     },
     {
-      "title": "element-ui",
+      "title": "UiPath",
       "frontmatter": {},
-      "regularPath": "/element-ui/",
-      "relativePath": "element-ui/README.md",
-      "key": "v-7500cc1f",
-      "path": "/element-ui/",
+      "regularPath": "/UiPath/",
+      "relativePath": "UiPath/README.md",
+      "key": "v-900dcbc2",
+      "path": "/UiPath/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用注意事项",
+          "slug": "使用注意事项"
+        },
+        {
+          "level": 2,
+          "title": "调用c#程序集",
+          "slug": "调用c-程序集"
+        },
+        {
+          "level": 2,
+          "title": "调用python脚本",
+          "slug": "调用python脚本"
+        },
+        {
+          "level": 2,
+          "title": "Excel",
+          "slug": "excel"
+        },
+        {
+          "level": 2,
+          "title": "重试范围",
+          "slug": "重试范围"
+        }
+      ]
+    },
+    {
+      "title": "问题解决",
+      "frontmatter": {},
+      "regularPath": "/Vue/problem.html",
+      "relativePath": "Vue/problem.md",
+      "key": "v-dd3abd9c",
+      "path": "/Vue/problem.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "解决ts内引用vue文件报错问题",
+          "slug": "解决ts内引用vue文件报错问题"
+        },
+        {
+          "level": 2,
+          "title": "启用热更新",
+          "slug": "启用热更新"
+        }
+      ]
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/en/CRM/",
+      "relativePath": "en/CRM/README.md",
+      "key": "v-c0100b9c",
+      "path": "/en/CRM/"
+    },
+    {
+      "title": "element",
+      "frontmatter": {},
+      "regularPath": "/element/",
+      "relativePath": "element/README.md",
+      "key": "v-c3ce1422",
+      "path": "/element/",
       "headers": [
         {
           "level": 2,
@@ -539,16 +646,33 @@ export const siteData = {
           "level": 3,
           "title": "应用篇",
           "slug": "应用篇"
+        },
+        {
+          "level": 3,
+          "title": "解决 el-card 与 vxe-table同时使用，可能会出现双线问题。",
+          "slug": "解决-el-card-与-vxe-table同时使用-可能会出现双线问题。"
         }
       ]
     },
     {
-      "title": "介绍",
+      "title": "ChatGPT操作方式",
       "frontmatter": {},
-      "regularPath": "/en/CRM/",
-      "relativePath": "en/CRM/README.md",
-      "key": "v-c0100b9c",
-      "path": "/en/CRM/"
+      "regularPath": "/en/ChatGPT/",
+      "relativePath": "en/ChatGPT/README.md",
+      "key": "v-755083dc",
+      "path": "/en/ChatGPT/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "生成图片",
+          "slug": "生成图片"
+        },
+        {
+          "level": 2,
+          "title": "插件",
+          "slug": "插件"
+        }
+      ]
     },
     {
       "title": "CRM后台操作",
@@ -582,26 +706,6 @@ export const siteData = {
           "level": 2,
           "title": "发送邮件",
           "slug": "发送邮件"
-        }
-      ]
-    },
-    {
-      "title": "使用",
-      "frontmatter": {},
-      "regularPath": "/en/CRM/plug-in/PluginRegistration.html",
-      "relativePath": "en/CRM/plug-in/PluginRegistration.md",
-      "key": "v-3718ac06",
-      "path": "/en/CRM/plug-in/PluginRegistration.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "注册",
-          "slug": "注册"
-        },
-        {
-          "level": 2,
-          "title": "调试",
-          "slug": "调试"
         }
       ]
     },
@@ -676,6 +780,34 @@ export const siteData = {
       ]
     },
     {
+      "title": "使用",
+      "frontmatter": {},
+      "regularPath": "/en/CRM/plug-in/PluginRegistration.html",
+      "relativePath": "en/CRM/plug-in/PluginRegistration.md",
+      "key": "v-3718ac06",
+      "path": "/en/CRM/plug-in/PluginRegistration.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "注册",
+          "slug": "注册"
+        },
+        {
+          "level": 2,
+          "title": "调试",
+          "slug": "调试"
+        }
+      ]
+    },
+    {
+      "title": "DNS",
+      "frontmatter": {},
+      "regularPath": "/en/DNS/",
+      "relativePath": "en/DNS/README.md",
+      "key": "v-3fef725c",
+      "path": "/en/DNS/"
+    },
+    {
       "title": "Dynamics 365",
       "frontmatter": {},
       "regularPath": "/en/CRM/publish/operation.html",
@@ -721,37 +853,99 @@ export const siteData = {
         {
           "level": 2,
           "title": "外键（ForeignKey）",
-          "slug": "外键（foreignkey）"
+          "slug": "外键-foreignkey"
         }
       ]
     },
     {
-      "title": "ChatGPT操作方式",
+      "title": "解决方式",
       "frontmatter": {},
-      "regularPath": "/en/ChatGPT/",
-      "relativePath": "en/ChatGPT/README.md",
-      "key": "v-755083dc",
-      "path": "/en/ChatGPT/",
+      "regularPath": "/en/Linux/ubuntu.html",
+      "relativePath": "en/Linux/ubuntu.md",
+      "key": "v-600753d9",
+      "path": "/en/Linux/ubuntu.html",
       "headers": [
         {
-          "level": 2,
-          "title": "生成图片",
-          "slug": "生成图片"
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式"
         },
         {
-          "level": 2,
-          "title": "插件",
-          "slug": "插件"
+          "level": 3,
+          "title": "界面化",
+          "slug": "界面化"
+        },
+        {
+          "level": 3,
+          "title": "解压",
+          "slug": "解压"
+        },
+        {
+          "level": 3,
+          "title": "出现initramfs",
+          "slug": "出现initramfs"
+        },
+        {
+          "level": 3,
+          "title": "出现E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.",
+          "slug": "出现e-dpkg-was-interrupted-you-must-manually-run-dpkg-configure-a-to-correct-the-problem"
+        },
+        {
+          "level": 3,
+          "title": "删除语法",
+          "slug": "删除语法"
+        },
+        {
+          "level": 3,
+          "title": "解决system program problem detected",
+          "slug": "解决system-program-problem-detected"
         }
       ]
     },
     {
-      "title": "DNS",
+      "title": "安装源",
       "frontmatter": {},
-      "regularPath": "/en/DNS/",
-      "relativePath": "en/DNS/README.md",
-      "key": "v-3fef725c",
-      "path": "/en/DNS/"
+      "regularPath": "/en/Linux/centos.html",
+      "relativePath": "en/Linux/centos.md",
+      "key": "v-3aa9d3f9",
+      "path": "/en/Linux/centos.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "安装源",
+          "slug": "安装源"
+        },
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式"
+        },
+        {
+          "level": 3,
+          "title": "安装必要的解压工具",
+          "slug": "安装必要的解压工具"
+        },
+        {
+          "level": 3,
+          "title": "安装tar.xz文件",
+          "slug": "安装tar-xz文件"
+        },
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式-2"
+        },
+        {
+          "level": 3,
+          "title": "图形化",
+          "slug": "图形化"
+        },
+        {
+          "level": 3,
+          "title": "解决方式",
+          "slug": "解决方式-3"
+        }
+      ]
     },
     {
       "title": "MySql语句",
@@ -802,6 +996,36 @@ export const siteData = {
       ]
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "../images/hero.png",
+        "features": [
+          {
+            "title": "Globalization",
+            "details": "Built-in industry universal international solution"
+          },
+          {
+            "title": "Theming",
+            "details": "Supports multiple dynamic skin methods"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2023"
+      },
+      "regularPath": "/en/",
+      "relativePath": "en/README.md",
+      "key": "v-6f9b5a9f",
+      "path": "/en/"
+    },
+    {
+      "title": "Vue",
+      "frontmatter": {},
+      "regularPath": "/en/Vue/",
+      "relativePath": "en/Vue/README.md",
+      "key": "v-fb16559c",
+      "path": "/en/Vue/"
+    },
+    {
       "title": "Python",
       "frontmatter": {},
       "regularPath": "/en/Python/",
@@ -842,26 +1066,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "../images/hero.png",
-        "features": [
-          {
-            "title": "Globalization",
-            "details": "Built-in industry universal international solution"
-          },
-          {
-            "title": "Theming",
-            "details": "Supports multiple dynamic skin methods"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2023"
-      },
-      "regularPath": "/en/",
-      "relativePath": "en/README.md",
-      "key": "v-6f9b5a9f",
-      "path": "/en/"
+      "frontmatter": {},
+      "regularPath": "/en/Typroa/flow-chart.html",
+      "relativePath": "en/Typroa/flow-chart.md",
+      "key": "v-160acc6d",
+      "path": "/en/Typroa/flow-chart.html"
     },
     {
       "title": "TypeScript",
@@ -949,13 +1158,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/en/Typroa/flow-chart.html",
-      "relativePath": "en/Typroa/flow-chart.md",
-      "key": "v-160acc6d",
-      "path": "/en/Typroa/flow-chart.html"
-    },
-    {
       "title": "UiPath",
       "frontmatter": {},
       "regularPath": "/en/UiPath/",
@@ -991,12 +1193,18 @@ export const siteData = {
       ]
     },
     {
-      "title": "Vue",
       "frontmatter": {},
-      "regularPath": "/en/Vue/",
-      "relativePath": "en/Vue/README.md",
-      "key": "v-fb16559c",
-      "path": "/en/Vue/"
+      "regularPath": "/en/features/components/avatar-upload.html",
+      "relativePath": "en/features/components/avatar-upload.md",
+      "key": "v-efcfff30",
+      "path": "/en/features/components/avatar-upload.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/en/features/components/back-to-top.html",
+      "relativePath": "en/features/components/back-to-top.md",
+      "key": "v-4d70db80",
+      "path": "/en/features/components/back-to-top.html"
     },
     {
       "title": "问题解决",
@@ -1054,45 +1262,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "element-ui",
-      "frontmatter": {},
-      "regularPath": "/en/element-ui/",
-      "relativePath": "en/element-ui/README.md",
-      "key": "v-e8c525f8",
-      "path": "/en/element-ui/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "element-ui-admin与vxe-table集成开发",
-          "slug": "element-ui-admin与vxe-table集成开发"
-        },
-        {
-          "level": 3,
-          "title": "安装篇",
-          "slug": "安装篇"
-        },
-        {
-          "level": 3,
-          "title": "应用篇",
-          "slug": "应用篇"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/back-to-top.html",
-      "relativePath": "en/features/components/back-to-top.md",
-      "key": "v-4d70db80",
-      "path": "/en/features/components/back-to-top.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/avatar-upload.html",
-      "relativePath": "en/features/components/avatar-upload.md",
-      "key": "v-efcfff30",
-      "path": "/en/features/components/avatar-upload.html"
-    },
-    {
       "frontmatter": {},
       "regularPath": "/en/features/components/breadcrumb.html",
       "relativePath": "en/features/components/breadcrumb.md",
@@ -1108,6 +1277,43 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/draggable-list.html",
+      "relativePath": "en/features/components/draggable-list.md",
+      "key": "v-39b7e028",
+      "path": "/en/features/components/draggable-list.html"
+    },
+    {
+      "title": "element",
+      "frontmatter": {},
+      "regularPath": "/en/element/",
+      "relativePath": "en/element/README.md",
+      "key": "v-60d4531c",
+      "path": "/en/element/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "element-ui-admin与vxe-table集成开发",
+          "slug": "element-ui-admin与vxe-table集成开发"
+        },
+        {
+          "level": 3,
+          "title": "安装篇",
+          "slug": "安装篇"
+        },
+        {
+          "level": 3,
+          "title": "应用篇",
+          "slug": "应用篇"
+        },
+        {
+          "level": 3,
+          "title": "解决 el-card 与 vxe-table同时使用，可能会出现双线问题。",
+          "slug": "解决-el-card-与-vxe-table同时使用-可能会出现双线问题。"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/draggable-kanban.html",
       "relativePath": "en/features/components/draggable-kanban.md",
       "key": "v-41ac4868",
@@ -1115,10 +1321,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/draggable-list.html",
-      "relativePath": "en/features/components/draggable-list.md",
-      "key": "v-39b7e028",
-      "path": "/en/features/components/draggable-list.html"
+      "regularPath": "/en/features/components/dropzone.html",
+      "relativePath": "en/features/components/dropzone.md",
+      "key": "v-127e2e4c",
+      "path": "/en/features/components/dropzone.html"
     },
     {
       "frontmatter": {},
@@ -1136,20 +1342,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/dropzone.html",
-      "relativePath": "en/features/components/dropzone.md",
-      "key": "v-127e2e4c",
-      "path": "/en/features/components/dropzone.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/error-log.html",
-      "relativePath": "en/features/components/error-log.md",
-      "key": "v-07c0acd4",
-      "path": "/en/features/components/error-log.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/components/github-corner.html",
       "relativePath": "en/features/components/github-corner.md",
       "key": "v-a11cac58",
@@ -1164,17 +1356,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/error-log.html",
+      "relativePath": "en/features/components/error-log.md",
+      "key": "v-07c0acd4",
+      "path": "/en/features/components/error-log.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/header-search.html",
       "relativePath": "en/features/components/header-search.md",
       "key": "v-40b1317c",
       "path": "/en/features/components/header-search.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/components/json-editor.html",
-      "relativePath": "en/features/components/json-editor.md",
-      "key": "v-3c8a0224",
-      "path": "/en/features/components/json-editor.html"
     },
     {
       "frontmatter": {},
@@ -1192,6 +1384,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/components/material-input.html",
+      "relativePath": "en/features/components/material-input.md",
+      "key": "v-02b0f12c",
+      "path": "/en/features/components/material-input.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/components/pagination.html",
       "relativePath": "en/features/components/pagination.md",
       "key": "v-8ac09428",
@@ -1199,10 +1398,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/material-input.html",
-      "relativePath": "en/features/components/material-input.md",
-      "key": "v-02b0f12c",
-      "path": "/en/features/components/material-input.html"
+      "regularPath": "/en/features/components/json-editor.html",
+      "relativePath": "en/features/components/json-editor.md",
+      "key": "v-3c8a0224",
+      "path": "/en/features/components/json-editor.html"
     },
     {
       "frontmatter": {},
@@ -1241,13 +1440,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/sticky.html",
-      "relativePath": "en/features/components/sticky.md",
-      "key": "v-7328158c",
-      "path": "/en/features/components/sticky.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/en/features/components/text-hover-effect.html",
       "relativePath": "en/features/components/text-hover-effect.md",
       "key": "v-1bd70d4e",
@@ -1255,10 +1447,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/components/theme-picker.html",
-      "relativePath": "en/features/components/theme-picker.md",
-      "key": "v-cd8e8fa8",
-      "path": "/en/features/components/theme-picker.html"
+      "regularPath": "/en/features/components/sticky.html",
+      "relativePath": "en/features/components/sticky.md",
+      "key": "v-7328158c",
+      "path": "/en/features/components/sticky.html"
     },
     {
       "frontmatter": {},
@@ -1276,10 +1468,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/directives/clipboard.html",
-      "relativePath": "en/features/directives/clipboard.md",
-      "key": "v-2fd2e78a",
-      "path": "/en/features/directives/clipboard.html"
+      "regularPath": "/en/features/components/theme-picker.html",
+      "relativePath": "en/features/components/theme-picker.md",
+      "key": "v-cd8e8fa8",
+      "path": "/en/features/components/theme-picker.html"
     },
     {
       "frontmatter": {},
@@ -1297,6 +1489,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/en/features/directives/clipboard.html",
+      "relativePath": "en/features/directives/clipboard.md",
+      "key": "v-2fd2e78a",
+      "path": "/en/features/directives/clipboard.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/en/features/directives/waves.html",
       "relativePath": "en/features/directives/waves.md",
       "key": "v-10d66e02",
@@ -1304,25 +1503,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/en/features/icons/svg-icons.html",
-      "relativePath": "en/features/icons/svg-icons.md",
-      "key": "v-41e20f12",
-      "path": "/en/features/icons/svg-icons.html"
-    },
-    {
-      "title": "详细配置",
-      "frontmatter": {},
-      "regularPath": "/en/nginx/configuration.html",
-      "relativePath": "en/nginx/configuration.md",
-      "key": "v-10cd3462",
-      "path": "/en/nginx/configuration.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "详细配置",
-          "slug": "详细配置"
-        }
-      ]
+      "regularPath": "/en/features/pwa/service-worker-update-popup.html",
+      "relativePath": "en/features/pwa/service-worker-update-popup.md",
+      "key": "v-6aa04812",
+      "path": "/en/features/pwa/service-worker-update-popup.html"
     },
     {
       "title": "Nginx",
@@ -1333,64 +1517,11 @@ export const siteData = {
       "path": "/en/nginx/"
     },
     {
-      "title": "命令",
       "frontmatter": {},
-      "regularPath": "/en/nginx/introduce.html",
-      "relativePath": "en/nginx/introduce.md",
-      "key": "v-545bb3fd",
-      "path": "/en/nginx/introduce.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "命令",
-          "slug": "命令"
-        },
-        {
-          "level": 2,
-          "title": "nginx的proxy_pass配置路径，加与不加“/”差异巨大",
-          "slug": "nginx的proxy-pass配置路径，加与不加“-”差异巨大"
-        },
-        {
-          "level": 3,
-          "title": "绝对路径",
-          "slug": "绝对路径"
-        },
-        {
-          "level": 3,
-          "title": "相对路径",
-          "slug": "相对路径"
-        },
-        {
-          "level": 3,
-          "title": "代理路径添加uri",
-          "slug": "代理路径添加uri"
-        }
-      ]
-    },
-    {
-      "title": "npm",
-      "frontmatter": {},
-      "regularPath": "/en/npm/",
-      "relativePath": "en/npm/README.md",
-      "key": "v-cffee2dc",
-      "path": "/en/npm/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "全局安装 nrm",
-          "slug": "全局安装-nrm"
-        },
-        {
-          "level": 2,
-          "title": "查看当前可使用的镜像源",
-          "slug": "查看当前可使用的镜像源"
-        },
-        {
-          "level": 2,
-          "title": "使用镜像源进行依赖下载",
-          "slug": "使用镜像源进行依赖下载"
-        }
-      ]
+      "regularPath": "/en/features/icons/svg-icons.html",
+      "relativePath": "en/features/icons/svg-icons.md",
+      "key": "v-41e20f12",
+      "path": "/en/features/icons/svg-icons.html"
     },
     {
       "title": "PCF控件",
@@ -1428,12 +1559,92 @@ export const siteData = {
       ]
     },
     {
+      "title": "详细配置",
+      "frontmatter": {},
+      "regularPath": "/en/nginx/configuration.html",
+      "relativePath": "en/nginx/configuration.md",
+      "key": "v-10cd3462",
+      "path": "/en/nginx/configuration.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "详细配置",
+          "slug": "详细配置"
+        }
+      ]
+    },
+    {
       "title": "介绍",
       "frontmatter": {},
       "regularPath": "/en/powerplatform/",
       "relativePath": "en/powerplatform/README.md",
       "key": "v-05c40ff2",
       "path": "/en/powerplatform/"
+    },
+    {
+      "title": "命令",
+      "frontmatter": {},
+      "regularPath": "/en/nginx/introduce.html",
+      "relativePath": "en/nginx/introduce.md",
+      "key": "v-545bb3fd",
+      "path": "/en/nginx/introduce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "命令",
+          "slug": "命令"
+        },
+        {
+          "level": 2,
+          "title": "nginx的proxy_pass配置路径，加与不加“/”差异巨大",
+          "slug": "nginx的proxy-pass配置路径-加与不加-差异巨大"
+        },
+        {
+          "level": 3,
+          "title": "绝对路径",
+          "slug": "绝对路径"
+        },
+        {
+          "level": 3,
+          "title": "相对路径",
+          "slug": "相对路径"
+        },
+        {
+          "level": 3,
+          "title": "代理路径添加uri",
+          "slug": "代理路径添加uri"
+        },
+        {
+          "level": 3,
+          "title": "解决页面刷新失效问题",
+          "slug": "解决页面刷新失效问题"
+        }
+      ]
+    },
+    {
+      "title": "npm",
+      "frontmatter": {},
+      "regularPath": "/en/npm/",
+      "relativePath": "en/npm/README.md",
+      "key": "v-cffee2dc",
+      "path": "/en/npm/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "全局安装 nrm",
+          "slug": "全局安装-nrm"
+        },
+        {
+          "level": 2,
+          "title": "查看当前可使用的镜像源",
+          "slug": "查看当前可使用的镜像源"
+        },
+        {
+          "level": 2,
+          "title": "使用镜像源进行依赖下载",
+          "slug": "使用镜像源进行依赖下载"
+        }
+      ]
     },
     {
       "title": "界面操作",
@@ -1456,6 +1667,27 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/features/components/avatar-upload.html",
+      "relativePath": "features/components/avatar-upload.md",
+      "key": "v-36ef92c2",
+      "path": "/features/components/avatar-upload.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/breadcrumb.html",
+      "relativePath": "features/components/breadcrumb.md",
+      "key": "v-398a20f7",
+      "path": "/features/components/breadcrumb.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/back-to-top.html",
+      "relativePath": "features/components/back-to-top.md",
+      "key": "v-091201c2",
+      "path": "/features/components/back-to-top.html"
+    },
+    {
       "title": "Power Automate",
       "frontmatter": {},
       "regularPath": "/en/powerplatform/powerautomate/view.html",
@@ -1469,34 +1701,6 @@ export const siteData = {
           "slug": "筛选数据可使用的符号"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/avatar-upload.html",
-      "relativePath": "features/components/avatar-upload.md",
-      "key": "v-36ef92c2",
-      "path": "/features/components/avatar-upload.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/en/features/pwa/service-worker-update-popup.html",
-      "relativePath": "en/features/pwa/service-worker-update-popup.md",
-      "key": "v-6aa04812",
-      "path": "/en/features/pwa/service-worker-update-popup.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/back-to-top.html",
-      "relativePath": "features/components/back-to-top.md",
-      "key": "v-091201c2",
-      "path": "/features/components/back-to-top.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/features/components/breadcrumb.html",
-      "relativePath": "features/components/breadcrumb.md",
-      "key": "v-398a20f7",
-      "path": "/features/components/breadcrumb.html"
     },
     {
       "frontmatter": {},
@@ -1542,17 +1746,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/error-log.html",
-      "relativePath": "features/components/error-log.md",
-      "key": "v-183e8d5f",
-      "path": "/features/components/error-log.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/github-corner.html",
       "relativePath": "features/components/github-corner.md",
       "key": "v-309e705f",
       "path": "/features/components/github-corner.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/error-log.html",
+      "relativePath": "features/components/error-log.md",
+      "key": "v-183e8d5f",
+      "path": "/features/components/error-log.html"
     },
     {
       "frontmatter": {},
@@ -1591,17 +1795,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/material-input.html",
-      "relativePath": "features/components/material-input.md",
-      "key": "v-1c2fd8b5",
-      "path": "/features/components/material-input.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/pagination.html",
       "relativePath": "features/components/pagination.md",
       "key": "v-24c5276e",
       "path": "/features/components/pagination.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/material-input.html",
+      "relativePath": "features/components/material-input.md",
+      "key": "v-1c2fd8b5",
+      "path": "/features/components/material-input.html"
     },
     {
       "frontmatter": {},
@@ -1640,17 +1844,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/components/text-hover-effect.html",
-      "relativePath": "features/components/text-hover-effect.md",
-      "key": "v-655813ff",
-      "path": "/features/components/text-hover-effect.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/features/components/sticky.html",
       "relativePath": "features/components/sticky.md",
       "key": "v-8bb143aa",
       "path": "/features/components/sticky.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/features/components/text-hover-effect.html",
+      "relativePath": "features/components/text-hover-effect.md",
+      "key": "v-655813ff",
+      "path": "/features/components/text-hover-effect.html"
     },
     {
       "frontmatter": {},
@@ -1682,6 +1886,13 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/features/directives/permission.html",
+      "relativePath": "features/directives/permission.md",
+      "key": "v-21b091bb",
+      "path": "/features/directives/permission.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/features/directives/draggable-dialog.html",
       "relativePath": "features/directives/draggable-dialog.md",
       "key": "v-b3d660ee",
@@ -1696,10 +1907,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/features/directives/permission.html",
-      "relativePath": "features/directives/permission.md",
-      "key": "v-21b091bb",
-      "path": "/features/directives/permission.html"
+      "regularPath": "/features/icons/svg-icons.html",
+      "relativePath": "features/icons/svg-icons.md",
+      "key": "v-e07b969e",
+      "path": "/features/icons/svg-icons.html"
     },
     {
       "frontmatter": {},
@@ -1709,19 +1920,55 @@ export const siteData = {
       "path": "/features/pwa/service-worker-update-popup.html"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/features/icons/svg-icons.html",
-      "relativePath": "features/icons/svg-icons.md",
-      "key": "v-e07b969e",
-      "path": "/features/icons/svg-icons.html"
-    },
-    {
       "title": "Nginx",
       "frontmatter": {},
       "regularPath": "/nginx/",
       "relativePath": "nginx/README.md",
       "key": "v-0c2ca833",
       "path": "/nginx/"
+    },
+    {
+      "title": "详细配置",
+      "frontmatter": {},
+      "regularPath": "/nginx/configuration.html",
+      "relativePath": "nginx/configuration.md",
+      "key": "v-67ee475c",
+      "path": "/nginx/configuration.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "详细配置",
+          "slug": "详细配置"
+        }
+      ]
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/",
+      "relativePath": "powerplatform/README.md",
+      "key": "v-1b11f412",
+      "path": "/powerplatform/"
+    },
+    {
+      "title": "界面操作",
+      "frontmatter": {},
+      "regularPath": "/powerplatform/powerapps/view.html",
+      "relativePath": "powerplatform/powerapps/view.md",
+      "key": "v-42d4e0ae",
+      "path": "/powerplatform/powerapps/view.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "sftp",
+          "slug": "sftp"
+        },
+        {
+          "level": 2,
+          "title": "文件上传到SharePoint",
+          "slug": "文件上传到sharepoint"
+        }
+      ]
     },
     {
       "title": "命令",
@@ -1739,7 +1986,7 @@ export const siteData = {
         {
           "level": 2,
           "title": "nginx的proxy_pass配置路径，加与不加“/”差异巨大",
-          "slug": "nginx的proxy-pass配置路径，加与不加“-”差异巨大"
+          "slug": "nginx的proxy-pass配置路径-加与不加-差异巨大"
         },
         {
           "level": 3,
@@ -1755,21 +2002,11 @@ export const siteData = {
           "level": 3,
           "title": "代理路径添加uri",
           "slug": "代理路径添加uri"
-        }
-      ]
-    },
-    {
-      "title": "详细配置",
-      "frontmatter": {},
-      "regularPath": "/nginx/configuration.html",
-      "relativePath": "nginx/configuration.md",
-      "key": "v-67ee475c",
-      "path": "/nginx/configuration.html",
-      "headers": [
+        },
         {
-          "level": 2,
-          "title": "详细配置",
-          "slug": "详细配置"
+          "level": 3,
+          "title": "解决页面刷新失效问题",
+          "slug": "解决页面刷新失效问题"
         }
       ]
     },
@@ -1799,30 +2036,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "介绍",
+      "title": "Power Automate",
       "frontmatter": {},
-      "regularPath": "/powerplatform/",
-      "relativePath": "powerplatform/README.md",
-      "key": "v-1b11f412",
-      "path": "/powerplatform/"
-    },
-    {
-      "title": "界面操作",
-      "frontmatter": {},
-      "regularPath": "/powerplatform/powerapps/view.html",
-      "relativePath": "powerplatform/powerapps/view.md",
-      "key": "v-42d4e0ae",
-      "path": "/powerplatform/powerapps/view.html",
+      "regularPath": "/powerplatform/powerautomate/view.html",
+      "relativePath": "powerplatform/powerautomate/view.md",
+      "key": "v-162a87ad",
+      "path": "/powerplatform/powerautomate/view.html",
       "headers": [
         {
           "level": 2,
-          "title": "sftp",
-          "slug": "sftp"
-        },
-        {
-          "level": 2,
-          "title": "文件上传到SharePoint",
-          "slug": "文件上传到sharepoint"
+          "title": "筛选数据可使用的符号",
+          "slug": "筛选数据可使用的符号"
         }
       ]
     },
@@ -1858,21 +2082,6 @@ export const siteData = {
           "level": 2,
           "title": "ControlManifest.Input.xml 注解",
           "slug": "controlmanifest-input-xml-注解"
-        }
-      ]
-    },
-    {
-      "title": "Power Automate",
-      "frontmatter": {},
-      "regularPath": "/powerplatform/powerautomate/view.html",
-      "relativePath": "powerplatform/powerautomate/view.md",
-      "key": "v-162a87ad",
-      "path": "/powerplatform/powerautomate/view.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "筛选数据可使用的符号",
-          "slug": "筛选数据可使用的符号"
         }
       ]
     }

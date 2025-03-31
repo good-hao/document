@@ -62,3 +62,9 @@ location /proxy {
 
 
 
+### 解决页面刷新失效问题
+
+```
+try_files $uri $uri/ /index.html;
+```
+
