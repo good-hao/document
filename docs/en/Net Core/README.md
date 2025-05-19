@@ -22,7 +22,7 @@ containerBuilder.RegisterType<UserService>().InstancePerOwned<IUserService>();
 
 勾选生成api
 
-![](../images/1.jpg)
+![](./images/1.png)
 
 ```
 //代码
