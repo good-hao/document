@@ -101,7 +101,7 @@ uipath需要下载python依赖（UiPath.Python.Activities）
 
 | 方法              | 描述                           | 传入参数                                                     | 传入类型             | 传出参数                    | 传出类型                  |
 | ----------------- | ------------------------------ | :----------------------------------------------------------- | -------------------- | --------------------------- | ------------------------- |
-| getConfiguration  | 获取配置，读取为键值对         | in_configUrl （如："C:\111.xlsx" 文件的具体路径）<br />in_dicName （如："Name" 列名）<br />in_dicValue （如："Value" 列名）<br />in_configSheets （如：new string[]{"Sheet2"} 工作表名称） | string<br />string[] | out_config                  | Dictionary<string,object> |
+| getConfiguration  | 获取配置，读取为键值对         | in_configUrl （如："C:\111.xlsx" 文件的具体路径）<br />in_dicName （如："Name" 列名）<br />in_dicValue （如："Value" 列名）<br />in_configSheets （如：Sheet1 工作表名称） | string<br />string[] | out_config                  | Dictionary<string,object> |
 | renameColumnName  | 重命名table列名，有重复则自加1 | in_dataTable                                                 | DataTable            | out_dataTable               | DataTable                 |
 | renameExcelColumn | 重命名excel列名，有重复则自加1 | in_filePath (如："C:\111.xlsx" 文件的具体路径)<br />in_sheetName (如："Sheet1" 工作表名称) | string               | out_dataTable               | DataTable                 |
 | Screenshot        | 获取屏幕截图                   | in_folder (如C:\UiPath"文件夹路径)                           | string               | filePath 保存文件的详细路径 | string                    |
